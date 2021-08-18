@@ -1,6 +1,10 @@
 const express = require('express');
+const request = require('request');
+var querystring = require('querystring');
+var http = require('http');
 
 const router = express.Router();
+
 
 //API that returns a single node to which a question will be associated
 router.get('/', async (req,res) => {
@@ -39,7 +43,7 @@ router.get('/way', async(req,res) => {
 router.post('/questions', async (req,res) => {
     const fs = require('fs');
     let id = req.body.id;
-    let type = req.body.type;
+    let type = req.body.type;var http = require('http');
     type = type.toUpperCase();
     let trovato = false
     let myArr = [];
@@ -70,6 +74,65 @@ router.post('/questions', async (req,res) => {
         console.error(err);
         res.status(400).json({message: err});
     }
+});
+
+router.get('/engine', async (req,res) =>{
+    engineUrl = "https://dev.smartcommunitylab.it/gamification-v3/model/game/610bb66e08813b000102e66c/action"
+    var user = "papyrus";
+    var pw = "papyrus0704!";
+    var pwuser = user + ":" + pw;
+    var auth = 'Basic ' + Buffer.from(user + ':' + pw).toString('base64');
+    console.log(auth);
+    console.log(pwuser);
+    //var header = {'Host': 'https://dev.smartcommunitylab.it/gamification-v3/model/game', 'Authorization': auth};
+    //var request = request('GET', '/', header);
+
+
+    request({
+        uri: engineUrl,
+        headers : {
+            "Authorization" : auth
+        },
+        json:true
+    },
+    function(error,response,body){
+        if(error){
+            console.log("this is my error:" + error);
+            console.log("this is my response: " + response);
+        }
+        console.log("this is my response: " + response);
+        console.log("this is body: " +JSON.stringify(body));
+        const myJson = JSON.stringify(response);
+        console.log("this is json: " +myJson);
+    })
+    
+
+
+    /*request(engineUrl, function(error,response,body){
+        const myJson = JSON.parse(body);
+        console.log(myJson);
+        res.status(200).send(myJson);
+    })*/
+
+    /*var form = {username: user, password: pw}
+    form = querystring.stringify(form)
+    request.get({
+        uri: engineUrl,
+        body: form,
+        json:true
+    },
+    function(error,response,body){
+        if(error){
+            console.log("this is my error:" + error);
+            console.log("this is my response: " + response);
+        }
+        console.log("this is my response: " + response);
+        console.log("seems Like it worked");
+        const myJson = JSON.stringify(response);
+        console.log("this is body: " +JSON.stringify(body));
+        console.log("this is json: " +myJson);
+        res.status(200).send(myJson);
+    })*/
 });
 
 module.exports = router
