@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 23058904, "tags": {"highway": "tertiary", "maxspeed": "50", "name": "Via Torre Vanga", "oneway": "yes", "parking:lane:both": "no_parking", "surface": "paved"}}, "geometry": {"type": "LineString", "coordinates": [[11.1195315, 46.0700669], [11.1197601, 46.0700876]]}}

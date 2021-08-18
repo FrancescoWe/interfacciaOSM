@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 24400261, "tags": {"highway": "residential", "maxspeed": "50", "name": "Via Giuseppe Gerola", "oneway": "yes", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1328436, 46.0579142], [11.1328718, 46.0579979], [11.1329106, 46.0580844], [11.1330641, 46.0584421], [11.1331356, 46.0586438]]}}

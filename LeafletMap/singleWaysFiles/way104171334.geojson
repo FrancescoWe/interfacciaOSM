@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 104171334, "tags": {"alt_name": "Piazza Portela", "highway": "residential", "lanes": "1", "name": "Piazza della Portella", "oneway": "yes", "oneway:bicycle": "no", "surface": "cobblestone"}}, "geometry": {"type": "LineString", "coordinates": [[11.1187585, 46.0695721], [11.118544, 46.069567], [11.1184057, 46.069548]]}}

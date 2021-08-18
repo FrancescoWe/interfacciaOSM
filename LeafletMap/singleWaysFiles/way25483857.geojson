@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 25483857, "tags": {"foot": "yes", "highway": "pedestrian", "name": "Vicolo cardinale Cristoforo Madruzzo", "short_name": "Vicolo Madruzzo", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1235176, 46.0634665], [11.1232705, 46.06346], [11.1231161, 46.0635026]]}}

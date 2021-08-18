@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 657200041, "tags": {"highway": "tertiary", "name": "Via Antonio Rosmini", "parking:lane:both": "no_parking", "parking:lane:left": "no_parking", "parking:lane:right": "no_parking", "surface": "paved"}}, "geometry": {"type": "LineString", "coordinates": [[11.1187017, 46.0684124], [11.1187123, 46.0683207]]}}

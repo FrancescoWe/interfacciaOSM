@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 25340138, "tags": {"highway": "tertiary_link", "maxspeed": "50", "oneway": "yes"}}, "geometry": {"type": "LineString", "coordinates": [[11.1051332, 46.0124677], [11.1050874, 46.0124147], [11.1049833, 46.0123761], [11.104831, 46.0123634]]}}

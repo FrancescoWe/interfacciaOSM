@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 32928698, "tags": {"bridge": "yes", "highway": "unclassified", "layer": "1", "maxweight": "3.5", "name": "Ponte Alto", "oneway": "yes", "surface": "asphalt", "wikidata": "Q96755101"}}, "geometry": {"type": "LineString", "coordinates": [[11.1512603, 46.0738676], [11.150941, 46.0738487]]}}

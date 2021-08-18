@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 24728627, "tags": {"access": "private", "bicycle": "permissive", "foot": "permissive", "highway": "residential", "name": "Via dei Giardini", "psv": "yes"}}, "geometry": {"type": "LineString", "coordinates": [[11.1329168, 46.0696201], [11.1328473, 46.0698238], [11.1326951, 46.0701721]]}}

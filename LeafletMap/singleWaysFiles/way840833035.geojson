@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 840833035, "tags": {"crossing": "zebra", "footway": "crossing", "highway": "footway", "lit": "no", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1231713, 46.0648251], [11.1231734, 46.064811]]}}

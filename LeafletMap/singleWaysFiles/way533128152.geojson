@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 533128152, "tags": {"bicycle": "yes", "foot": "yes", "highway": "path", "mtb:scale": "4", "sac_scale": "mountain_hiking", "surface": "ground", "trail_visibility": "good"}}, "geometry": {"type": "LineString", "coordinates": [[11.1407437, 45.9928801], [11.140835, 45.9928282], [11.1409569, 45.9928417]]}}

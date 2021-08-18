@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 189295568, "tags": {"highway": "unclassified", "lane_markings": "no", "lit": "yes", "maxspeed:type": "IT:urban", "name": "Via dei Rivi", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1544833, 46.0650684], [11.1544946, 46.0648845], [11.1545037, 46.0646669]]}}

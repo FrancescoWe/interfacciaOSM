@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 497883344, "tags": {"foot": "no", "highway": "secondary", "maxspeed": "30", "name": "Via per Cognola", "parking:lane:both": "no_parking", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1386879, 46.0726445], [11.1385895, 46.0725977]]}}

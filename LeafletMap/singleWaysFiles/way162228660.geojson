@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 162228660, "tags": {"highway": "unclassified", "name": "Via Giovanni Battista Borsieri", "oneway": "yes", "oneway:bicycle": "no", "surface": "paved"}}, "geometry": {"type": "LineString", "coordinates": [[11.1210596, 46.0654542], [11.119448, 46.0652785], [11.1193171, 46.0652551]]}}

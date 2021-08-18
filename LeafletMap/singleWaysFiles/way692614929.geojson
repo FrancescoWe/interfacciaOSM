@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 692614929, "tags": {"bicycle": "yes", "highway": "service", "name": "Piazza di Fiera", "oneway": "yes", "oneway:bicycle": "no", "psv": "yes", "surface": "sett"}}, "geometry": {"type": "LineString", "coordinates": [[11.1232723, 46.0648735], [11.1232203, 46.0651675], [11.1232202, 46.0651676]]}}

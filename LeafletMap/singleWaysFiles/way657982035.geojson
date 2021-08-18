@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 657982035, "tags": {"highway": "unclassified", "lanes": "4", "lanes:backward": "3", "lanes:forward": "1", "lit": "yes", "maxspeed:type": "IT:urban", "name": "Via San Martino", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.125399, 46.0731454], [11.125393, 46.0731081]]}}

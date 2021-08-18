@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 775625755, "tags": {"highway": "tertiary", "lanes": "1", "name": "Via Brescia", "oneway": "yes", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1138293, 46.0705618], [11.1139309, 46.0704606], [11.1140166, 46.0703816]]}}

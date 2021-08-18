@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 25703371, "tags": {"highway": "residential", "maxspeed": "30", "name": "Via Col di Lana", "oneway": "yes", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1341702, 46.0602521], [11.1342392, 46.0606859], [11.134282, 46.0611557]]}}

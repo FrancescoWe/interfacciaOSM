@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 441640907, "tags": {"highway": "secondary", "name": "Via Bassano", "old_ref": "SS47", "oneway": "yes", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1503009, 46.075285], [11.1504797, 46.0753431], [11.1505827, 46.0753388], [11.1506678, 46.0753512]]}}
