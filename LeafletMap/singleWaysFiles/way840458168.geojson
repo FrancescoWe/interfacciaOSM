@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 840458168, "tags": {"highway": "residential", "maxspeed": "40", "name": "Via Palermo", "oneway": "no", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1259101, 46.0561959], [11.1258956, 46.0561796], [11.1254527, 46.0556828]]}}

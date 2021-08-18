@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 840833034, "tags": {"highway": "residential", "is_in": "Trento, Trentino-Alto Adige, Italy", "lit": "no", "name": "Via del Travai", "oneway": "yes", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1231713, 46.0648251], [11.1232795, 46.0648326]]}}

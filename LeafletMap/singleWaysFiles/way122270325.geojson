@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 122270325, "tags": {"footway": "crossing", "highway": "footway", "lit": "yes", "name": "Via dei Cappuccini", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1282159, 46.0731467], [11.1282767, 46.073153], [11.1283445, 46.0731702]]}}

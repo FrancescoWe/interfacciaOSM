@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 689085688, "tags": {"highway": "tertiary", "junction": "roundabout", "lane_markings": "no", "loc_name": "Rotonda dell'Orso", "noname": "yes", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1161269, 46.0698977], [11.1161148, 46.069914], [11.1160956, 46.069931], [11.1160719, 46.0699451]]}}

@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 37956147, "tags": {"highway": "residential", "name": "Via Francesco Petrarca", "oneway": "yes", "parking:condition:both": "ticket", "parking:lane:both": "parallel", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1238046, 46.0725517], [11.1237484, 46.0724736], [11.1236046, 46.0722884]]}}

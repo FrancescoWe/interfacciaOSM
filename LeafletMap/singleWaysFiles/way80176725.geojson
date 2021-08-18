@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 80176725, "tags": {"highway": "secondary", "lanes": "2", "name": "Via del Brennero", "oneway": "yes"}}, "geometry": {"type": "LineString", "coordinates": [[11.1132116, 46.0955121], [11.1128683, 46.0962455], [11.1126002, 46.0969994]]}}

@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 53198081, "tags": {"highway": "residential", "name": "Via Vittorio Veneto", "noexit": "yes", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1209793, 46.0573567], [11.1209796, 46.0573178], [11.1212702, 46.0566252], [11.1213686, 46.0566438], [11.1214516, 46.0566587]]}}

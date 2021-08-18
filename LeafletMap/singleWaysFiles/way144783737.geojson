@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 144783737, "tags": {"highway": "residential", "lit": "yes", "maxspeed": "30", "name": "Via generale Giacomo Medici", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1232979, 46.0537], [11.1232946, 46.0531626], [11.1232859, 46.0524933], [11.1232849, 46.0524149]]}}

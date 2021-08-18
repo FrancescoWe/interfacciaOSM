@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 474153110, "tags": {"bus": "yes", "highway": "unclassified", "motor_vehicle": "no", "name": "Piazza Leonardo da Vinci", "oneway": "yes", "surface": "cobblestone"}}, "geometry": {"type": "LineString", "coordinates": [[11.1177771, 46.069907], [11.1177763, 46.0698613], [11.1177994, 46.0698114]]}}

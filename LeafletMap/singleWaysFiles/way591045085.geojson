@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 591045085, "tags": {"highway": "secondary", "lanes": "2", "maxspeed": "50", "name": "Via Brigata Acqui", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1280847, 46.0648809], [11.1280463, 46.0648152], [11.1278111, 46.0643902]]}}

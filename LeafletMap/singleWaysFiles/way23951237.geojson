@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 23951237, "tags": {"highway": "unclassified", "lanes": "1", "lit": "yes", "maxspeed:type": "IT:urban", "name": "Largo Nazario Sauro", "oneway": "yes", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1249359, 46.0744739], [11.1251028, 46.0744835], [11.1251785, 46.0744878]]}}

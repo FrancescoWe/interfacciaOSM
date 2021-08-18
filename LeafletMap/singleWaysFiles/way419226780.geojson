@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 419226780, "tags": {"cycleway:both": "no", "highway": "unclassified", "maxspeed": "50", "name": "Via dei Valoni", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1468632, 46.0662955], [11.1464617, 46.0664677], [11.1461277, 46.0665853], [11.145834, 46.0666645], [11.145607, 46.0667035]]}}

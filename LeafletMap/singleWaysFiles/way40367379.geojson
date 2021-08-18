@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 40367379, "tags": {"highway": "unclassified", "name": "Via della Saluga", "parking:condition:both": "ticket", "parking:lane:both": "parallel", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1284194, 46.0701567], [11.1282337, 46.0700926], [11.1280853, 46.0700844], [11.1280109, 46.0700836]]}}

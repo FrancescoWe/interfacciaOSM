@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 24436848, "tags": {"highway": "residential", "maxspeed": "30", "name": "Via Coni Zugna", "oneway": "yes", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1333613, 46.0602776], [11.1334647, 46.060275], [11.1341702, 46.0602521], [11.1351943, 46.0602225], [11.1352703, 46.0602203]]}}

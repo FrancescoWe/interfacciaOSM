@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"type": "way", "id": 155428148, "tags": {"highway": "unclassified", "lanes": "2", "lit": "yes", "name": "Via Torre D'Augusto", "parking:lane:left": "no_parking", "source:maxspeed": "IT:urban", "surface": "asphalt"}}, "geometry": {"type": "LineString", "coordinates": [[11.1259433, 46.0731191], [11.1254793, 46.07311], [11.125393, 46.0731081]]}}
