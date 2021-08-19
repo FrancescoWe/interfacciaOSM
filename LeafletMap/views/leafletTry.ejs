@@ -36,7 +36,7 @@
                     return false;
                 } else { 
                     //console.log("everything working...");
-                    //console.log(data);
+                    //console.log("WHAAAAAAAA" + data);
                     getLatitudeLongitude(data)
                     getQuestion(data, "node", marker);
                     return true;
@@ -87,6 +87,7 @@
             const obj = JSON.parse(jsonFile);
             console.log(obj.properties.id);
             console.log(obj.properties.type);
+            console.log(obj);
             await fetch("/api/mapRoute/questions",{
                 headers: {
                     'Content-Type': 'application/json',
@@ -107,19 +108,29 @@
                 }else{
                     console.log(data)
                     console.log(data.length);
+                    let myQuestions = [];
+                    let pointsTaken = [];
+                    //let myQuestion = data[0];
                     for(var i=0;i<data.length;i++){
-                            console.log("trying..." + i);
+                            console.log("trying..." + data[i]);
+                            myQuestions.push(data[i][1]);
+                            pointsTaken.push(data[i][8]);
                     }
+                    //NOW TODO FOR EACH ELEMENT IN MYQUESTIONS I HAVE TO CREATE A QUESTION.
                     element.addEventListener('click', function(){
                         let text;
-                        let question = prompt(data[0], "");
-                        //createForm();
-                        if(question == null || question ==""){
+                        for(var i=0;i<myQuestions.length;i++){
+                            let question = prompt(myQuestions[i], "");
+                            //createForm();
+                            if(question == null || question ==""){
                             //User leaves prmpt blank
-                        }else{
-                            //User puts an input in the field
-                            //QUA DEVO FARE LA CHIAMATA ALLA GAME ENGINE CON I DATI INSERITI DAL GIOCATORE.
-                            callGameEngine();
+                            }else{
+                                //console.log("ANSWER ISSSSSSSSS",question);
+                                //User puts an input in the field
+                                //LA CHIAMATA ALLA GAME ENGINE CON I DATI INSERITI DAL GIOCATORE.
+                                //DEVO MANDARE DOMANDA, RISPOSTA, ELEMENTO A CUI SI RISPONDE, PUNTEGGIO CHE SI OTTIENE
+                                callGameEngine(myQuestions[i],question,data[i],pointsTaken[i]); //FOR PINANSWERCOMPLETED
+                            }
                         }
                         //createPopup(data);
                     },false);
@@ -128,13 +139,21 @@
             return false;
         };
 
-        async function callGameEngine(){
+        async function callGameEngine(myQuestion, answer, myObject, point){
+            let playerId = "ID3";
             await fetch("/api/mapRoute/engine", {
                 headers: {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json'
                 },
-                method: "GET"
+                method: "POST",
+                body: JSON.stringify({
+                    "question" : myQuestion,
+                    "answer" : answer,
+                    "element" : myObject,
+                    "points" : point,
+                    "playerId" : playerId
+                })
             })
             .then((resp) => resp.json())
             .then(function(data){
@@ -177,9 +196,6 @@
         //getWay();
         getNode();
         
-
-
-
         function createPopup(data){
             var popup = open("", "Popup", "width=300,height=200");
             var txtOk = popup.document.createElement("FORM");
@@ -203,7 +219,9 @@
             aOk.innerHTML = "Click here";
 
             popup.document.body.appendChild(txtOk);
-            popup.document.body.appendChild(aOk);}
+            popup.document.body.appendChild(aOk);
+        }
+        
     </script>
 </body>
 </html>

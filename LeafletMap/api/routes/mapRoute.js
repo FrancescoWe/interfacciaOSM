@@ -46,7 +46,8 @@ router.post('/questions', async (req,res) => {
     let type = req.body.type;var http = require('http');
     type = type.toUpperCase();
     let trovato = false
-    let myArr = [];
+    let myArr = []; //the array containing the questions about that specific node.
+    let myElements = []; //the row corresponding to the node or way chosen
     try{
         var csvFile = fs.readFileSync("./Quests/wayQuests.csv", 'utf8');
         csvFile = csvFile.split("\r\n");
@@ -55,16 +56,18 @@ router.post('/questions', async (req,res) => {
             myData = myData.split("|");
             if(myData[0] == type && myData[2] == id){
                 myArr.push(myData[1]);
+                myElements.push(myData);
+                //console.log("THIS IS MYDATA: " + myElements);
                 //res.json(myData[1]);
                 trovato = true;
             }
             //csvFile[i] = csvFile[i].split(",");
         }
         if(trovato==true){
-            console.log(myArr);
+            //console.log(myArr);
             //console.log(myData[1]);
             //res.json(myData[1]);
-            res.json(myArr)
+            res.json(myElements);
         }
         if(trovato == false){
             res.status(404).json({message: "Not Found"});
@@ -76,23 +79,38 @@ router.post('/questions', async (req,res) => {
     }
 });
 
-router.get('/engine', async (req,res) =>{
-    engineUrl = "https://dev.smartcommunitylab.it/gamification-v3/model/game/610bb66e08813b000102e66c/action"
+
+//In the body you have to specify the answer, question, points, object to which you answered and you have to specify also the player.
+//API that calls the gamification engine in order to call the rule for a Pin that is getting answered
+router.post('/engine', async (req,res) =>{
+    let playerId = req.body.playerId;
+    let answer = req.body.answer;
+    let question = req.body.question;
+    let points = req.body.points;
+    let element = req.body.element; //my Entire Node or Way
+    engineUrl = "https://dev.smartcommunitylab.it/gamification-v3/gengine/execute"
     var user = "papyrus";
     var pw = "papyrus0704!";
-    var pwuser = user + ":" + pw;
+    //var pwuser = user + ":" + pw;
     var auth = 'Basic ' + Buffer.from(user + ':' + pw).toString('base64');
-    console.log(auth);
-    console.log(pwuser);
-    //var header = {'Host': 'https://dev.smartcommunitylab.it/gamification-v3/model/game', 'Authorization': auth};
-    //var request = request('GET', '/', header);
+    now = new Date();
+    nowIso = now.toISOString();
 
+    body = {
+        actionId: 'PinAnswerCompleted',
+        data: {points: points},
+        executionMoment: nowIso,
+        gameId: "610bb66e08813b000102e66c",
+        playerId: playerId
+    }
 
     request({
+        method: 'POST',
         uri: engineUrl,
         headers : {
             "Authorization" : auth
         },
+        body: body,
         json:true
     },
     function(error,response,body){
@@ -100,39 +118,14 @@ router.get('/engine', async (req,res) =>{
             console.log("this is my error:" + error);
             console.log("this is my response: " + response);
         }
-        console.log("this is my response: " + response);
-        console.log("this is body: " +JSON.stringify(body));
+
+        // prints date & time in YYYY-MM-DD format
+        //console.log(nowIso);
+        console.log("MYPOINTS " + points);
+        //console.log("this is body: " +JSON.stringify(body));
         const myJson = JSON.stringify(response);
         console.log("this is json: " +myJson);
     })
-    
-
-
-    /*request(engineUrl, function(error,response,body){
-        const myJson = JSON.parse(body);
-        console.log(myJson);
-        res.status(200).send(myJson);
-    })*/
-
-    /*var form = {username: user, password: pw}
-    form = querystring.stringify(form)
-    request.get({
-        uri: engineUrl,
-        body: form,
-        json:true
-    },
-    function(error,response,body){
-        if(error){
-            console.log("this is my error:" + error);
-            console.log("this is my response: " + response);
-        }
-        console.log("this is my response: " + response);
-        console.log("seems Like it worked");
-        const myJson = JSON.stringify(response);
-        console.log("this is body: " +JSON.stringify(body));
-        console.log("this is json: " +myJson);
-        res.status(200).send(myJson);
-    })*/
 });
 
 module.exports = router
