@@ -105,8 +105,7 @@ router.post('/engine', async (req,res) =>{
         "playerId": playerId
     }
     secondEngineUrl = "https://dev.smartcommunitylab.it/gamification-v3/exec/game/610bb66e08813b000102e66c/action/PinAnswerCompleted"
-    
-    //parser = new JSONParser();
+    /*parser = new JSONParser();
     dataStringified = JSON.stringify(mybody);
     dataParsed = JSON.parse(dataStringified);
     console.log("dataStringified:"+dataStringified);
@@ -123,7 +122,7 @@ router.post('/engine', async (req,res) =>{
 
     punteggio = data_1.points;
     console.log("punteggio: " + punteggio);
-    //solutionMap = ((Map)data_1);
+    solutionMap = ((Map)data_1);*/
     request({
         method: 'POST',
         uri: engineUrl,

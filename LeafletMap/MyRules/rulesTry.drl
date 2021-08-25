@@ -1,0 +1,137 @@
+rule "first-answer"
+when
+  Action(id == 'PinAnswerCompleted')
+  InputData(
+    $solution: data["solution"]
+  )
+  $GoldCoinsScore : PointConcept(name == "GoldCoins")
+  $PointsScore : PointConcept(name == "AccumulatedPoints")
+  $customData : CustomData(this["level"] == null) 
+  not AlreadyLevelUp()
+then
+  Map solutionMap = ((Map)$solution);
+  String myPoints = (String)solutionMap.get("points"); //////////////////////
+  Double punti = Double.parseDouble(myPoints); /////////////////////////
+  Double points = punti;
+  // update the counter
+  modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + points);}
+  modify($PointsScore) {setScore($PointsScore.getScore() + points);} 
+  
+  $customData.put("level_up_points", punti);
+  $customData.put("level", "1");
+
+  update($customData)
+  insert(new AlreadyLevelUp());
+end
+
+
+
+
+//ALL THE OTHER LEVELS
+rule "answer-x"
+when
+	Action( id == 'PinAnswerCompleted')
+  	InputData(
+        $solution : data["solution"]
+ )
+ $GoldCoinsScore : PointConcept(name == "GoldCoins")
+ $PointsScore : PointConcept(name == "AccumulatedPoints")
+ $customData : CustomData(this["level"] >= 0) 
+ $customData : CustomData(this["level_up_points"] >= 0)
+ not AlreadyLevelUp()
+then 
+
+  Map solutionMap = ((Map)$solution);
+  String myPoints = (String)solutionMap.get("points"); //////////////////////
+  Double punti = Double.parseDouble(myPoints); /////////////////////////
+  Double points = punti;
+
+ // update the counter
+  modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + points);}
+  modify($PointsScore) {setScore($PointsScore.getScore() + points);}  
+  
+  String actualPoints = (String)$customData.get("level_up_points");
+  Integer levelPoints_int = Integer.parseInt(actualPoints); 
+  Integer punti_int = Integer.parseInt(punti);
+  
+  levelPoints_int = levelPoints_int + punti_int;
+  String newLevelPoints = String.valueOf(levelPoints_int);
+ 
+  $customData.put("level_up_points", newLevelPoints);
+
+  update($customData)
+
+end
+
+rule "level-up"
+when 
+  $customData : CustomData(this["level"]>= 0)
+  $customData : CustomData(this["level_up_points"] >= this["level"]*10)
+  not AlreadyLevelUp()
+then
+  String actualPoints = (String)$customData.get("level_up_points");
+  String actualLevel = (String)$customData.get("level");
+  Integer levelPoints_int = Integer.parseInt(actualPoints); 
+  Integer i = Integer.parseInt(actualLevel);
+
+  Integer level_up_threshold = i * 10;
+  levelPoints_int = levelPoints_int - level_up_threshold;
+
+  Integer newLevel = i+1;
+  String newLevelString = String.valueOf(newLevel);
+  String newLevelPoints = String.valueOf(levelPoints_int);
+
+  $customData.put("level_up_points", newLevelPoints);
+  $customData.put("level", newLevelString);
+  update($customData);
+  insert(new AlreadyLevelUp());
+end
+
+
+
+
+
+
+
+
+
+
+
+
+//CANCELLATA
+//ALL THE OTHER LEVELS
+rule "to-level-x"
+when
+	Action( id == 'PinAnswerCompleted')
+  	InputData(
+        $solution : data["solution"]
+ )
+ $GoldCoinsScore : PointConcept(name == "GoldCoins")
+ $PointsScore : PointConcept(name == "AccumulatedPoints")
+ $customData : CustomData(this["level"] >= 0) 
+ $customData : CustomData(this["level_up_points"] >= 0)
+ not AlreadyLevelUp()
+then 
+
+Map solutionMap = ((Map)$solution);
+String myPoints = (String)solutionMap.get("points"); //////////////////////
+Double punti = Double.parseDouble(myPoints); /////////////////////////
+Double points = punti;
+//Double points = (Double)solutionMap.get("points");
+//Double points = 1.0; 
+ // update the counter
+  modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + points);}
+  modify($PointsScore) {setScore($PointsScore.getScore() + points);} 
+  
+  $customData.put("level_up_points", punti)
+  update($customData)
+
+  String actualLevel = (String)$customData.get("level");
+  Integer i=Integer.parseInt(actualLevel);
+  Integer newLevel = i+1;  
+  String newLevelString=String.valueOf(newLevel);  
+ 
+ $customData.put("level", newLevelString);
+  update($customData);
+  insert(new AlreadyLevelUp());
+end
