@@ -1,0 +1,132 @@
+package eu.trentorise.game.model
+
+
+declare AlreadyLevelUp
+end
+
+// LEVEL 1
+
+rule "to-level-1"
+when
+	Action( id == 'PinAnswerCompleted')
+ //   	InputData(
+//        $solution : data["solution"];
+//        $exercise: data["exercise"]
+//    )
+    $GoldCoinsScore : PointConcept(name == "GoldCoins")
+    $customData : CustomData(this["level"] == null) // player without levels
+    not AlreadyLevelUp()
+then 
+     double score = 10.0;
+     modify($GoldCoinsScore) { setScore((double) score); } // update the counter
+     modify($customData) { put("level", "1"); }
+     insert(new AlreadyLevelUp());
+end
+
+// LEVEL 2
+
+rule "to-level-2"
+when
+	Action( id == 'PinAnswerCompleted')
+ //   	InputData(
+//        $solution : data["solution"];
+//        $exercise: data["exercise"]
+//    )
+    $GoldCoinsScore : PointConcept(name == "GoldCoins")
+    $customData : CustomData(this["level"] == "1") // player without levels
+    not AlreadyLevelUp()
+then 
+     double score = 20.0;
+
+//$assignmentPoints.setScore($assignmentPoints.getScore() +exercisePoints);
+     modify($GoldCoinsScore) { setScore((double) score); } // update the counter
+     modify($customData) { put("level", "2"); }
+     insert(new AlreadyLevelUp());
+end
+
+//LEVEL 3
+
+rule "to-level-3"
+when
+	Action( id == 'PinAnswerCompleted')
+ //   	InputData(
+//        $solution : data["solution"];
+//        $exercise: data["exercise"]
+//    )
+    $GoldCoinsScore : PointConcept(name == "GoldCoins")
+    $customData : CustomData(this["level"] == "2") // player without levels
+    not AlreadyLevelUp()
+then 
+     double score = 10.0;
+
+     modify($GoldCoinsScore) {setScore($GoldCoinsScore.getScore() + (double) score); } // update the counter
+     //if ($GoldCoinsScore >= $customData * 10){
+     //  		modify($customData){put("level", $customData + 1);}
+     //			$GoldCoinsScore = 0
+     //  }
+     modify($customData) { put("level", "3"); }
+     insert(new AlreadyLevelUp());
+end
+
+
+//ALL THE OTHER LEVELS
+rule "to-level-x"
+when
+	Action( id == 'PinAnswerCompleted')
+  	InputData(
+        $solution : data["solution"]
+ )
+ $GoldCoinsScore : PointConcept(name == "GoldCoins")
+ $PointsScore : PointConcept(name == "AccumulatedPoints")
+ $customData : CustomData(this["level"] >= 3) 
+ $customData : CustomData(this["level_up_points"] )
+ not AlreadyLevelUp()
+then 
+
+Map solutionMap = ((Map)$solution);
+String myPoints = (String)solutionMap.get("points"); //////////////////////
+Double punti = Double.parseDouble(myPoints); /////////////////////////
+Double points = punti;
+//Double points = (Double)solutionMap.get("points");
+//Double points = 1.0; 
+ // update the counter
+  modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + points);}
+  modify($PointsScore) {setScore($PointsScore.getScore() + points);} 
+  //String actualLevel = (String)$customData.get("level");
+  //Integer i=Integer.parseInt(actualLevel);
+  //Integer newLevel = i+1;  
+  //String newLevelString=String.valueOf(newLevel);  
+ 
+ //$customData.put("level", newLevelString);
+  $customData.put("level_up_points", "80");
+   update($customData);
+
+   insert(new AlreadyLevelUp());
+end
+
+rule "level-up"
+when 
+  //$customData : CustomData(this["level_up_points"]==null) //new levelUp
+  $PoinsScore : PointConcept(name == "AccumulatedPoints")
+  //$customData : CustomData(this["level"])
+  //$pointCustomData : CustomData(this["level_up_points"]>=CustomData(this["level"])*10)
+  $customData : CustomData(this["level_up_points"]>=CustomData(this["level"])*10)
+  not AlreadyLevelUp()
+then
+  String levelPoints = (String)$customData.get("level_up_points");
+  String actualLevel = (String)$customData.get("level");
+  Integer levelPoints_int = Integer.parseInt(levelPoints); 
+  Integer i = Integer.parseInt(actualLevel);
+
+  Integer level_up_threshold = i * 10;
+  levelPoints_int = levelPoints_int - level_up_threshold;
+
+  Integer newLevel = i+1;
+  String newLevelString = String.valueOf(newLevel);
+  String newLevelPoints = String.valueOf(levelPoints_int);
+
+  $customData.put("level_up_points", "500");
+  $customData.put("level", newLevelString);
+  update($customData);
+  insert(new AlreadyLevelUp());
+end

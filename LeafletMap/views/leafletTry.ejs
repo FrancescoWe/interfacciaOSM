@@ -130,6 +130,7 @@
                                 //LA CHIAMATA ALLA GAME ENGINE CON I DATI INSERITI DAL GIOCATORE.
                                 //DEVO MANDARE DOMANDA, RISPOSTA, ELEMENTO A CUI SI RISPONDE, PUNTEGGIO CHE SI OTTIENE
                                 callGameEngine(myQuestions[i],question,data[i],pointsTaken[i]); //FOR PINANSWERCOMPLETED
+                                deletePlayer()
                             }
                         }
                         //createPopup(data);
@@ -139,8 +140,21 @@
             return false;
         };
 
+        async function deletePlayer(){
+            await fetch("/api/mapRoute/deleteUser", {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                method: "DELETE",
+            }).then((resp) => resp.json())
+            .then(function (data) {
+            }).catch(error => console.log("WHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" + error))
+            return false;
+        }
+
         async function callGameEngine(myQuestion, answer, myObject, point){
-            let playerId = "ID8";
+            let playerId = "ID6";
             await fetch("/api/mapRoute/engine", {
                 headers: {
                     'Content-Type': 'application/json',

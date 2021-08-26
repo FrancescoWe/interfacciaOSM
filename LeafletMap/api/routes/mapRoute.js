@@ -77,8 +77,7 @@ router.post('/questions', async (req,res) => {
         console.error(err);
         res.status(400).json({message: err});
     }
-});
-
+})
 
 //In the body you have to specify the answer, question, points, object to which you answered and you have to specify also the player.
 //API that calls the gamification engine in order to call the rule for a Pin that is getting answered
@@ -157,5 +156,36 @@ router.post('/engine', async (req,res) =>{
         console.log("this is json: " +myJson);
     })
 });
+
+router.delete('/deleteUser', async (req,res) =>{
+    var user = "papyrus";
+    var pw = "papyrus0704!";
+    //var pwuser = user + ":" + pw;
+    var auth = 'Basic ' + Buffer.from(user + ':' + pw).toString('base64');
+    gameID = "610bb66e08813b000102e66c"
+    playerID = "I6"
+    engineUrl = "https://dev.smartcommunitylab.it/gamification-v3/data/game/" + gameID + "/" + "player/" + playerID 
+    console.log(engineUrl)
+    request({
+        method: 'DELETE',
+        uri: engineUrl,
+        headers : {
+            "Authorization" : auth
+        },
+        json:true
+    },
+    function(error,response,body){
+        if(error){
+            console.log("this is my error:" + error);
+            console.log("this is my response: " + response);
+        }
+        // prints date & time in YYYY-MM-DD format
+        //console.log(nowIso);
+        console.log(JSON.stringify(body));
+        console.log("this is body: " +JSON.stringify(body));
+        const myJson = JSON.stringify(response);
+        console.log("this is json: " +myJson);
+    })
+})
 
 module.exports = router

@@ -14,7 +14,6 @@ when
   )
   $GoldCoinsScore : PointConcept(name == "GoldCoins")
   $PointsScore : PointConcept(name == "AccumulatedPoints")
-  $bc : BadgeCollectionConcept(name ==  'green leaves', badgeEarned not contains '1-point-green')
   $customData : CustomData(this["level"] == null) 
   not AlreadyLevelUp()
 then
@@ -29,9 +28,6 @@ then
   $customData.put("level_up_points", punti);
   $customData.put("level", "1");
 
-  $bc.getBadgeEarned().add('1-point-green');
-  update( $bc );
-
   update($customData)
   insert(new AlreadyLevelUp());
 end
@@ -42,11 +38,11 @@ rule "answer-x"
 when
 	Action( id == 'PinAnswerCompleted')
   	InputData(
-        $solution : data["solution"];
+        $solution : data["solution"]
  )
- $GoldCoinsScore : PointConcept(name == "GoldCoins");
- $PointsScore : PointConcept(name == "AccumulatedPoints");
- $customData : CustomData(this["level"] >= 0); 
+ $GoldCoinsScore : PointConcept(name == "GoldCoins")
+ $PointsScore : PointConcept(name == "AccumulatedPoints")
+ $customData : CustomData(this["level"] >= 0) 
  not AlreadyLevelUp()
 then 
 
@@ -59,31 +55,15 @@ then
   modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
   modify($PointsScore) {setScore($PointsScore.getScore() + punti);}  
   
-  String actualLevel = (String)$customData.get("level");  
-  String actualPoints = (String)$customData.get("level_up_points");
-  Double levelPoints = Double.parseDouble(actualPoints); 
-  Double myLevel = Double.parseDouble(actualLevel);
-  Integer i = Integer.parseInt(actualLevel);
+ String actualPoints = (String)$customData.get("level_up_points");
+ Double levelPoints = Double.parseDouble(actualPoints); 
 
-  Double pointThreshold = myLevel*10;
-  levelPoints = levelPoints + punti;
+ levelPoints = levelPoints + punti;
 
-  //LEVEL UP
-  if(levelPoints >= pointThreshold){
-    Integer newLevel = i + 1;
-    String newLevelString = String.valueOf(newLevel);
-    levelPoints = levelPoints - pointThreshold;
-    //levelPoints = Double.parseDouble(levelPoints);
-    $customData.put("level", newLevelString);
-    update($customData);
-  }
- 
+ String newLevelPoints = String.valueOf(levelPoints);
+ $customData.put("level_up_points", newLevelPoints);
 
-  String newLevelPoints = String.valueOf(levelPoints);
-  $customData.put("level_up_points", newLevelPoints);
-
-
-  update($customData);
+  update($customData)
   insert(new AlreadyLevelUp());
 
 end
