@@ -129,8 +129,9 @@
                                 //User puts an input in the field
                                 //LA CHIAMATA ALLA GAME ENGINE CON I DATI INSERITI DAL GIOCATORE.
                                 //DEVO MANDARE DOMANDA, RISPOSTA, ELEMENTO A CUI SI RISPONDE, PUNTEGGIO CHE SI OTTIENE
-                                callGameEngine(myQuestions[i],question,data[i],pointsTaken[i]); //FOR PINANSWERCOMPLETED
-                                deletePlayer()
+                                validatePoint();
+                                //callGameEngine(myQuestions[i],question,data[i],pointsTaken[i]); //FOR PINANSWERCOMPLETED
+                                //deletePlayer()
                             }
                         }
                         //createPopup(data);
@@ -154,7 +155,7 @@
         }
 
         async function callGameEngine(myQuestion, answer, myObject, point){
-            let playerId = "ID6";
+            let playerId = "ID11";
             await fetch("/api/mapRoute/engine", {
                 headers: {
                     'Content-Type': 'application/json',
@@ -186,6 +187,34 @@
             return false;
         }
 
+        async function validatePoint(){
+            let playerId = "ID11";
+            await fetch("/api/mapRoute/validation", {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                method: "POST",
+                body: JSON.stringify({
+                    "playerId" : playerId
+                })
+            })
+            .then((resp) => resp.json())
+            .then(function(data){
+                if(data.error != null){
+                    alert("Error\n" +data.error);
+                    console.log("ERROR");
+                    return false;
+                }else{
+                    //data = jQuery.parseJSON(data);
+                    let jsonData = JSON.parse(data);
+                    console.log(jsonData);
+                    //console.log(data.geometry.coordinates[0][0]);
+                    return true;
+                }
+            }).catch(error => console.error(error));
+            return false;
+        }
         /*function createForm(){
             var form = document.createElement("form");
 
