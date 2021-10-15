@@ -129,9 +129,9 @@
                                 //User puts an input in the field
                                 //LA CHIAMATA ALLA GAME ENGINE CON I DATI INSERITI DAL GIOCATORE.
                                 //DEVO MANDARE DOMANDA, RISPOSTA, ELEMENTO A CUI SI RISPONDE, PUNTEGGIO CHE SI OTTIENE
-                                validatePoint();
-                                //callGameEngine(myQuestions[i],question,data[i],pointsTaken[i]); //FOR PINANSWERCOMPLETED
-                                //deletePlayer()
+                                //validatePoint();
+                                callGameEngine(myQuestions[i],question,data[i],pointsTaken[i]); //FOR PINANSWERCOMPLETED
+                                //deletePlayer();
                             }
                         }
                         //createPopup(data);
@@ -155,7 +155,7 @@
         }
 
         async function callGameEngine(myQuestion, answer, myObject, point){
-            let playerId = "ID11";
+            let playerId = "ID15";
             await fetch("/api/mapRoute/engine", {
                 headers: {
                     'Content-Type': 'application/json',
@@ -188,7 +188,7 @@
         }
 
         async function validatePoint(){
-            let playerId = "ID11";
+            let playerId = "ID15";
             await fetch("/api/mapRoute/validation", {
                 headers: {
                     'Content-Type': 'application/json',

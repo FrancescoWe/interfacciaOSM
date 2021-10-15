@@ -87,7 +87,7 @@ router.post('/engine', async (req,res) =>{
     let question = req.body.question;
     //let points = parseFloat(req.body.points).toFixed(1);
     let points = req.body.points;
-    points = "20.0"; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    points = "119.0"; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     let element = req.body.element; //my Entire Node or Way
     engineUrl = "https://dev.smartcommunitylab.it/gamification-v3/gengine/execute"
     var user = "papyrus";
@@ -117,7 +117,7 @@ router.post('/engine', async (req,res) =>{
             "data" : {
                 "gameID": "610bb66e08813b000102e66c",
                 "playerID": playerId,
-                "solution": {points: points}
+                "solution": {"points": points}
             },
             "executionMoment": nowIso,
             "gameId": "610bb66e08813b000102e66c",
@@ -147,7 +147,7 @@ router.delete('/deleteUser', async (req,res) =>{
     //var pwuser = user + ":" + pw;
     var auth = 'Basic ' + Buffer.from(user + ':' + pw).toString('base64');
     gameID = "610bb66e08813b000102e66c"
-    playerID = "ID11"
+    playerID = "ID9"
     engineUrl = "https://dev.smartcommunitylab.it/gamification-v3/data/game/" + gameID + "/" + "player/" + playerID 
     console.log(engineUrl)
     request({
@@ -186,12 +186,75 @@ router.post('/validation', async (req,res) =>{
     var pw = "papyrus0704!";
     //var pwuser = user + ":" + pw;
     var auth = 'Basic ' + Buffer.from(user + ':' + pw).toString('base64');
+    console.log(auth)
     now = new Date();
     nowIso = now.toISOString();
 
     console.log("PLAYERID: "+playerId);
     mybody = {
         "actionId": "ValidatePoint",
+        "data": {},
+        "executionMoment": nowIso,
+        "gameId": "610bb66e08813b000102e66c",
+        "playerId": playerId
+    }
+    secondEngineUrl = "https://dev.smartcommunitylab.it/gamification-v3/exec/game/610bb66e08813b000102e66c/action/ValidatePoint"
+    
+    request({
+        method: 'POST',
+        uri: engineUrl,
+        headers : {
+            "Authorization" : auth
+        },
+        body: {
+            "actionId" : 'ValidatePoint',
+            "data" : {
+                "gameID": "610bb66e08813b000102e66c",
+                "playerID": playerId,
+                //"solution": {points: "3.0"}
+            },
+            "executionMoment": nowIso,
+            "gameId": "610bb66e08813b000102e66c",
+            "playerId": playerId
+        },
+        json:true
+    },
+    function(error,response,body){
+        if(error){
+            console.log("this is my error:" + error);
+            console.log("this is my response: " + response);
+        }
+
+        // prints date & time in YYYY-MM-DD format
+        //console.log(nowIso);
+        console.log(JSON.stringify(body));
+        console.log("WAAAAAAAAAAAAAAAAAAAAAAAAAAthis is body: " +JSON.stringify(body));
+        const myJson = JSON.stringify(response);
+        console.log("this is json: " +myJson);
+    })
+});
+
+
+
+
+
+router.post('/insertion', async (req,res) =>{
+    let playerId = req.body.playerId;
+    let answer = req.body.answer;
+    let question = req.body.question;
+    //let points = parseFloat(req.body.points).toFixed(1);
+    let element = req.body.element; //my Entire Node or Way
+    engineUrl = "https://dev.smartcommunitylab.it/gamification-v3/gengine/execute"
+    var user = "papyrus";
+    var pw = "papyrus0704!";
+    //var pwuser = user + ":" + pw;
+    var auth = 'Basic ' + Buffer.from(user + ':' + pw).toString('base64');
+    now = new Date();
+    nowIso = now.toISOString();
+
+    console.log("PLAYERID: "+playerId);
+    mybody = {
+        "actionId": "PointInserted",
         "data": {},
         "executionMoment": nowIso,
         "gameId": "610bb66e08813b000102e66c",
@@ -208,9 +271,9 @@ router.post('/validation', async (req,res) =>{
         body: {
             "actionId" : 'PointInserted',
             "data" : {
-                "gameID": "610bb66e08813b000102e66c",
+                "gameID": "610bb66e0881 3b000102e66c",
                 "playerID": playerId,
-                "solution": {points: "3.0"}
+                //"solution": {points: "3.0"}
             },
             "executionMoment": nowIso,
             "gameId": "610bb66e08813b000102e66c",

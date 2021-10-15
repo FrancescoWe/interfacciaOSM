@@ -210,7 +210,7 @@ Double  punti = 1.0;
 
   
   $bc.getBadgeEarned().add('1-badge-earned');
-  update($bc);Data
+  update($bc);
 
   update($customData);
   insert(new AlreadyLevelUp());
@@ -405,7 +405,7 @@ rule "expert_contributor"
     salience -1000
     when
         $customData : CustomData(this["points_inserted"] ==20)
-	$bc : BadgeCollectionConcept(name == "expert contributor badge", badgeEarned not contains '1-badge-earned')
+	$bc : BadgeCollectionConcept(name == "expert contributor", badgeEarned not contains '1-badge-earned')
 	Game( $gameId: id)
 	Player( $playerId : id)
     then

@@ -27,9 +27,11 @@ then
   // update the counter
   modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + puntiDouble);}
   modify($PointsScore) {setScore($PointsScore.getScore() + puntiDouble);} 
-  
+ 
   $customData.put("level_up_points", punti);
   $customData.put("level", "1");
+  $customData.put("points_inserted","0");
+
 
   $bc.getBadgeEarned().add('1-point-green');
   update( $bc );
@@ -38,7 +40,6 @@ then
   insert(new AlreadyLevelUp());
 end
 
-
 //ALL THE OTHER LEVELS
 rule "answer-x"
 when
@@ -46,9 +47,6 @@ when
   	InputData(
         $solution : data["solution"];
  )
- $bc : BadgeCollectionConcept(name == 'beginner badge')
- $bc_expert : BadgeCollectionConcept(name == 'expert badge')
- $bc_professional : BadgeCollectionConcept(name == 'professional badge')
  $GoldCoinsScore : PointConcept(name == "GoldCoins");
  $PointsScore : PointConcept(name == "AccumulatedPoints");
  $customData : CustomData(this["level"] >= 0); 
@@ -82,23 +80,9 @@ then
     $customData.put("level", newLevelString);
     update($customData);
     actualLevel = (String)$customData.get("level");
+    i=newLevel;
   }
-  i = Integer.parseInt(actualLevel);
-  //if player level is 5 and he has not earned a beginner badge, give him a beginner badge
-  if(i == 5 && $bc.getBadgeEarned() not contains '1-badge-earned'){
-    $bc.getBadgeEarned().add('1-badge-earned');
-    update($bc);
-  }
-  //if player level is 10 and he has not earned an expert badge, give him an expert badge
-  if(i== 10 && $bc_expert.getBadgeEarned() not contains '1-badge-earned'){
-    $bc_expert.getBadgeEarned().add('1-badge-earned');
-    update($bc_expert);
-  }
-  //if player level is 20 and he has not earned a professional badge, give him a professional badge
-  if(i==20 && bc_professional.getBadgeEarned() not contains '1-badge-earned'){
-    $bc_professional.getBadgeEarned().add()('1-badge-earned');
-    update($bc_professional);
-  }
+  //i = Integer.parseInt(actualLevel);
 
 
   String newLevelPoints = String.valueOf(levelPoints);
@@ -110,254 +94,471 @@ then
 
 end
 
-//RULE FOR FIRST VALIDATION
-rule "validate-first-point"
+
+
+
+//ALL THE VALIDATIONS WITH ALREADY OBTAINED BADGE
+rule "validation-answer-until-level-x"
 when
   Action(id == 'ValidatePoint')
+  $bc : BadgeCollectionConcept(name == "validator badge", badgeEarned contains '1-badge-earned')
   $GoldCoinsScore : PointConcept(name == "GoldCoins")
   $PointsScore : PointConcept(name == "AccumulatedPoints")
-  $bc : BadgeCollectionConcept(name ==  'validator badge', badgeEarned not contains '1-badge-earned')
-  $customData : CustomData(this["level"] >= 0)
+  $customData : CustomData(this["level"] >=5)
+ 
   not AlreadyLevelUp()
 then
-  Double punti = 1.0;
-  modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
-  modify($PointsScore) {setScore($PointsScore.getScore() + punti);}  
 
-  String actualLevel = (String)$customData.get("level");  
-  String actualPoints = (String)$customData.get("level_up_points");
-  Double levelPoints = Double.parseDouble(actualPoints); 
-  Double myLevel = Double.parseDouble(actualLevel);
-  Integer i = Integer.parseInt(actualLevel);
-
-  Double pointThreshold = myLevel*10;
-  levelPoints = levelPoints + punti;
-
-  //LEVEL UP
-  if(levelPoints >= pointThreshold){
-    Integer newLevel = i + 1;
-    String newLevelString = String.valueOf(newLevel);
-    levelPoints = levelPoints - pointThreshold;
-    //levelPoints = Double.parseDouble(levelPoints);
-    $customData.put("level", newLevelString);
-    update($customData);
-    actualLevel = (String)$customData.get("level");
-  }
-
-  String newLevelPoints = String.valueOf(levelPoints);
-  $customData.put("level_up_points", newLevelPoints);
-  $customData.put("validator_points", 1);
-
-  $bc.getBadgeEarned().add('1-badge-earned');
-  update( $bc );
-
-  update($customData)
-  insert(new AlreadyLevelUp());
-
-end
+Double  punti = 1.0;
 
 
-//RULE FOR ALL THE OTHER VALIDATIONS
-rule 'validate-point'
-when
-  Action(id == 'ValidatePoint')
-  $GoldCoinsScore : PointConcept(name == "GoldCoins")
-  $PointsScore : PointConcept(name == "AccumulatedPoints")
-  $bc : BadgeCollectionConcept(name ==  'validator', badgeEarned contains '1-badge-earned')
-  $bc_validator : BadgeCollectionConcept(name == 'expert validator')
-  not AlreadyLevelUp()
-then
+
   // update the counter
-  Double punti = 1.0;
   modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
-  modify($PointsScore) {setScore($PointsScore.getScore() + punti);}  
+  modify($PointsScore) {setScore($PointsScore.getScore() + punti);}
 
-  String actualValidation = (String)$customData.get("validator-points");
   String actualLevel = (String)$customData.get("level");  
   String actualPoints = (String)$customData.get("level_up_points");
-  Double levelPoints = Double.parseDouble(actualPoints); 
+  Double levelPoints = Double.parseDouble(actualPoints);
   Double myLevel = Double.parseDouble(actualLevel);
-  Integer actualValidation = Integer.parseInt(actualValidation);
   Integer i = Integer.parseInt(actualLevel);
 
-  Double pointThreshold = myLevel*10;
+
+  Double pointThreshold = myLevel*10.0;
   levelPoints = levelPoints + punti;
-  actualValidation = actualValidation + 1;
+
+  utils.log("threshold: "+pointThreshold);
+  utils.log("punti di livello: "+levelPoints );
 
   //LEVEL UP
   if(levelPoints >= pointThreshold){
+   utils.log("apply \' threshold superato\'");
     Integer newLevel = i + 1;
     String newLevelString = String.valueOf(newLevel);
     levelPoints = levelPoints - pointThreshold;
-    //levelPoints = Double.parseDouble(levelPoints);
     $customData.put("level", newLevelString);
+    utils.log("Nuovo Livello: "+newLevelString);
     update($customData);
-    actualLevel = (String)$customData.get("level");
   }
-  i = Integer.parseInt(actualLevel);
-  //if player level is 5 and he has not earned a beginner badge, give him a beginner badge
-  if(i == 5 && $bc.getBadgeEarned() not contains '1-badge-earned'){
-    $bc.getBadgeEarned().add('1-badge-earned');
-    update($bc);
-  }
-  //if player level is 10 and he has not earned an expert badge, give him an expert badge
-  if(i== 10 && $bc_expert.getBadgeEarned() not contains '1-badge-earned'){
-    $bc_expert.getBadgeEarned().add('1-badge-earned');
-    update($bc_expert);
-  }
-  //if player level is 20 and he has not earned a professional badge, give him a professional badge
-  if(i==20 && bc_professional.getBadgeEarned() not contains '1-badge-earned'){
-    $bc_professional.getBadgeEarned().add()('1-badge-earned');
-    update($bc_professional);
-  }
-
+ 
   String newLevelPoints = String.valueOf(levelPoints);
   $customData.put("level_up_points", newLevelPoints);
+  utils.log("punti di livello: "+newLevelPoints);
 
-  //check if he made 20 points to earn a badge
-  if(actualValidation == 20){
-    bc_validator().add('1-badge-earned');
-    update( $bc_validator);
-  }
-  String newLevelPoints = String.valueOf(levelPoints);
-  $customData.put("level_up_points", newLevelPoints);
-  String newValidationPoints = String.valueOf(actualValidation);
-  $customData.put("validator-points", newValidationPoints);
+  String actualValidations = (String)$customData.get("answers_validated");
+  Integer myValidations = Integer.parseInt(actualValidations);
+  myValidations= myValidations + 1;
+  String toValidate = String.valueOf(myValidations)
+  $customData.put("answers_validated", toValidate);
 
-  update($customData)
+  update($customData);
   insert(new AlreadyLevelUp());
+ 
+ 
 end
 
-//RULE INSERT FIRST POINT
-rule "insert-first-point"
+
+//ALL THE OTHER VALIDATIONS WITH NO BADGE
+rule "validation-answer-until-level-x-no-badge"
 when
-  Action(id == 'PointInserted')
+  Action(id == 'ValidatePoint')
+  $bc : BadgeCollectionConcept(name == "validator badge", badgeEarned not contains '1-badge-earned')
   $GoldCoinsScore : PointConcept(name == "GoldCoins")
   $PointsScore : PointConcept(name == "AccumulatedPoints")
-  $bc : BadgeCollectionConcept(name ==  'contributor', badgeEarned not contains '1-badge-earned')
-  $customData : CustomData(this["level"] >= 0)
+  $customData : CustomData(this["level"] >=5)
+ 
   not AlreadyLevelUp()
 then
-  Double punti = 1.0;
+
+Double  punti = 1.0;
+
+
+
+  // update the counter
   modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
-  modify($PointsScore) {setScore($PointsScore.getScore() + punti);}  
+  modify($PointsScore) {setScore($PointsScore.getScore() + punti);}
 
   String actualLevel = (String)$customData.get("level");  
   String actualPoints = (String)$customData.get("level_up_points");
-  Double levelPoints = Double.parseDouble(actualPoints); 
+  Double levelPoints = Double.parseDouble(actualPoints);
   Double myLevel = Double.parseDouble(actualLevel);
   Integer i = Integer.parseInt(actualLevel);
 
-  Double pointThreshold = myLevel*10;
+
+  Double pointThreshold = myLevel*10.0;
   levelPoints = levelPoints + punti;
+
+  utils.log("threshold: "+pointThreshold);
+  utils.log("punti di livello: "+levelPoints );
 
   //LEVEL UP
   if(levelPoints >= pointThreshold){
+   utils.log("apply \' threshold superato\'");
     Integer newLevel = i + 1;
     String newLevelString = String.valueOf(newLevel);
     levelPoints = levelPoints - pointThreshold;
-    //levelPoints = Double.parseDouble(levelPoints);
     $customData.put("level", newLevelString);
+    utils.log("Nuovo Livello: "+newLevelString);
     update($customData);
-    actualLevel = (String)$customData.get("level");
   }
-  i = Integer.parseInt(actualLevel);
-  //if player level is 5 and he has not earned a beginner badge, give him a beginner badge
-  if(i == 5 && $bc.getBadgeEarned() not contains '1-badge-earned'){
-    $bc.getBadgeEarned().add('1-badge-earned');
-    update($bc);
-  }
-  //if player level is 10 and he has not earned an expert badge, give him an expert badge
-  if(i== 10 && $bc_expert.getBadgeEarned() not contains '1-badge-earned'){
-    $bc_expert.getBadgeEarned().add('1-badge-earned');
-    update($bc_expert);
-  }
-  //if player level is 20 and he has not earned a professional badge, give him a professional badge
-  if(i==20 && bc_professional.getBadgeEarned() not contains '1-badge-earned'){
-    $bc_professional.getBadgeEarned().add()('1-badge-earned');
-    update($bc_professional);
-  }
-
+ 
   String newLevelPoints = String.valueOf(levelPoints);
   $customData.put("level_up_points", newLevelPoints);
+  utils.log("punti di livello: "+newLevelPoints);
+  $customData.put("answers_validated", "1");
+  update($customData)
+
   
-  $customData.put("contributor_points", 1);
-
   $bc.getBadgeEarned().add('1-badge-earned');
-  update( $bc );
+  update($bc);
 
-  update($customData)
+  update($customData);
   insert(new AlreadyLevelUp());
-
+ 
+ 
 end
 
-//RULE INSERT POINTS AFTER THE FIRST ONE
-rule "insert-point"
+
+//ALL THE INSERTIONS WITH ALREADY OBTAINED BADGE
+rule "insert-answer-until-level-x"
 when
   Action(id == 'PointInserted')
+  $bc : BadgeCollectionConcept(name == "contributor", badgeEarned contains '1-badge-earned')
   $GoldCoinsScore : PointConcept(name == "GoldCoins")
   $PointsScore : PointConcept(name == "AccumulatedPoints")
-  $bc : BadgeCollectionConcept(name ==  'contributor', badgeEarned contains '1-badge-earned')
-  $bc_contributor : BadgeCollectionConcept(name == 'expert contributor')
+  $customData : CustomData(this["level"] >=5 this["points_inserted"]>=0)
   not AlreadyLevelUp()
 then
-  // update the counter
-  Double punti = 3.0;
-  modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
-  modify($PointsScore) {setScore($PointsScore.getScore() + punti);}  
 
-  String actualContribution = (String)$customData.get("contributor-points");
+Double  punti = 3.0;
+
+
+
+  // update the counter
+  modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
+  modify($PointsScore) {setScore($PointsScore.getScore() + punti);}
+
   String actualLevel = (String)$customData.get("level");  
   String actualPoints = (String)$customData.get("level_up_points");
-  Double levelPoints = Double.parseDouble(actualPoints); 
+  Double levelPoints = Double.parseDouble(actualPoints);
   Double myLevel = Double.parseDouble(actualLevel);
-  Integer actualContribution = Integer.parseInt(actualContribution);
   Integer i = Integer.parseInt(actualLevel);
 
-  Double pointThreshold = myLevel*10;
+
+  Double pointThreshold = myLevel*10.0;
   levelPoints = levelPoints + punti;
-  actualContribution = actualContribution + 1;
+
+  utils.log("threshold: "+pointThreshold);
+  utils.log("punti di livello: "+levelPoints );
 
   //LEVEL UP
   if(levelPoints >= pointThreshold){
+   utils.log("apply \' threshold superato\'");
     Integer newLevel = i + 1;
     String newLevelString = String.valueOf(newLevel);
     levelPoints = levelPoints - pointThreshold;
-    //levelPoints = Double.parseDouble(levelPoints);
     $customData.put("level", newLevelString);
+    utils.log("Nuovo Livello: "+newLevelString);
     update($customData);
-    actualLevel = (String)$customData.get("level");
   }
-  i = Integer.parseInt(actualLevel);
-  //if player level is 5 and he has not earned a beginner badge, give him a beginner badge
-  if(i == 5 && $bc.getBadgeEarned() not contains '1-badge-earned'){
-    $bc.getBadgeEarned().add('1-badge-earned');
-    update($bc);
-  }
-  //if player level is 10 and he has not earned an expert badge, give him an expert badge
-  if(i== 10 && $bc_expert.getBadgeEarned() not contains '1-badge-earned'){
-    $bc_expert.getBadgeEarned().add('1-badge-earned');
-    update($bc_expert);
-  }
-  //if player level is 20 and he has not earned a professional badge, give him a professional badge
-  if(i==20 && bc_professional.getBadgeEarned() not contains '1-badge-earned'){
-    $bc_professional.getBadgeEarned().add()('1-badge-earned');
-    update($bc_professional);
-  }
-
+ 
   String newLevelPoints = String.valueOf(levelPoints);
   $customData.put("level_up_points", newLevelPoints);
+  utils.log("punti di livello: "+newLevelPoints);
 
-  //check if he made 20 points to earn a badge
-  if(actualContribution== 20){
-    bc_contributor().add('1-badge-earned');
-    update( $bc_contributorr);
-  }
-  String newLevelPoints = String.valueOf(levelPoints);
-  $customData.put("level_up_points", newLevelPoints);
-  String newContributionPoints = String.valueOf(actualContribution);
-  $customData.put("contributor-points", newContributionnPoints);
+  //update custom data point-inserted
+  String actualPointsInserted = (String)$customData.get("points_inserted");
+  Integer myinserts = Integer.parseInt(actualPointsInserted);
+  myinserts = myinserts + 1;
+  String toInsert = String.valueOf(myinserts)
+  $customData.put("points_inserted", toInsert);
 
-  update($customData)
+  update($customData);
   insert(new AlreadyLevelUp());
+ 
+ 
+end
+
+
+//ALL THE OTHER INSERTIONS WITHOUT OBRAINED BADGE
+rule "insert-point-until-level-x-no-badge"
+when
+  Action(id == 'PointInserted')
+  $bc : BadgeCollectionConcept(name == "contributor", badgeEarned not contains '1-badge-earned')
+  $GoldCoinsScore : PointConcept(name == "GoldCoins")
+  $PointsScore : PointConcept(name == "AccumulatedPoints")
+  $customData : CustomData(this["level"] >=5 && this["points_inserted"] == null)
+ 
+  not AlreadyLevelUp()
+then
+
+Double  punti = 3.0;
+
+
+
+  // update the counter
+  modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
+  modify($PointsScore) {setScore($PointsScore.getScore() + punti);}
+
+  String actualLevel = (String)$customData.get("level");  
+  String actualPoints = (String)$customData.get("level_up_points");
+  Double levelPoints = Double.parseDouble(actualPoints);
+  Double myLevel = Double.parseDouble(actualLevel);
+  Integer i = Integer.parseInt(actualLevel);
+
+
+  Double pointThreshold = myLevel*10.0;
+  levelPoints = levelPoints + punti;
+
+  utils.log("threshold: "+pointThreshold);
+  utils.log("punti di livello: "+levelPoints );
+
+  //LEVEL UP
+  if(levelPoints >= pointThreshold){
+   utils.log("apply \' threshold superato\'");
+    Integer newLevel = i + 1;
+    String newLevelString = String.valueOf(newLevel);
+    levelPoints = levelPoints - pointThreshold;
+    $customData.put("level", newLevelString);
+    utils.log("Nuovo Livello: "+newLevelString);
+    update($customData);
+  }
+ 
+  String newLevelPoints = String.valueOf(levelPoints);
+  $customData.put("level_up_points", newLevelPoints);
+  utils.log("punti di livello: "+newLevelPoints);
+
+  $customData.put("points_inserted", "1");
+  update($customData)
+
+  $bc.getBadgeEarned().add('1-badge-earned');
+  update($bc);
+
+  update($customData);
+  insert(new AlreadyLevelUp());
+ 
+ 
+end
+
+
+
+
+
+// RULES FOR LEVELS
+rule "beginner_level"
+    salience -1000
+    when
+      $customData : CustomData(this["level"] ==5)
+	 $bc : BadgeCollectionConcept(name == "beginner badge", badgeEarned not contains '1-badge-earned')
+	 Game( $gameId: id)
+	Player( $playerId : id)
+    then
+	utils.log("apply \'1-badge-earned\'");
+	$bc.getBadgeEarned().add('1-badge-earned');
+	//insert( new BadgeNotification($gameId,$playerId,'10-point-green'));
+	update( $bc );
+end
+
+rule "expert_level"
+    salience -1000
+    when
+        $customData : CustomData(this["level"] ==10)
+        $bc : BadgeCollectionConcept(name == "expert badge", badgeEarned not contains '1-badge-earned')
+	Game( $gameId: id)
+	Player( $playerId : id)
+    then
+	utils.log("apply \'1-badge-earned\'");
+	$bc.getBadgeEarned().add('1-badge-earned');
+	//insert( new BadgeNotification($gameId,$playerId,'10-point-green'));
+	update( $bc );
+end
+
+rule "professional_level"
+    salience -1000
+    when
+        $customData : CustomData(this["level"] ==20)
+	$bc : BadgeCollectionConcept(name == "professional badge", badgeEarned not contains '1-badge-earned')
+	Game( $gameId: id)
+	Player( $playerId : id)
+    then
+	utils.log("apply \'1-badge-earned\'");
+	$bc.getBadgeEarned().add('1-badge-earned');
+	//insert( new BadgeNotification($gameId,$playerId,'10-point-green'));
+	update( $bc );
+end
+
+rule "expert_validator"
+    salience -1000
+    when
+        $customData : CustomData(this["answers_validated"] ==20)
+	$bc : BadgeCollectionConcept(name == "expert validator badge", badgeEarned not contains '1-badge-earned')
+	Game( $gameId: id)
+	Player( $playerId : id)
+    then
+	utils.log("apply \'1-badge-earned\'");
+	$bc.getBadgeEarned().add('1-badge-earned');
+	//insert( new BadgeNotification($gameId,$playerId,'10-point-green'));
+	update( $bc );
+end
+
+rule "expert_contributor"
+    salience -1000
+    when
+        $customData : CustomData(this["points_inserted"] ==20)
+	$bc : BadgeCollectionConcept(name == "expert contributor", badgeEarned not contains '1-badge-earned')
+	Game( $gameId: id)
+	Player( $playerId : id)
+    then
+	utils.log("apply \'1-badge-earned\'");
+	$bc.getBadgeEarned().add('1-badge-earned');
+	//insert( new BadgeNotification($gameId,$playerId,'10-point-green'));
+	update( $bc );
+end
+
+
+
+rule "five-validations-without-badge"
+    when
+        Action(id == 'GetsValidatedFiveTimes')
+        $bc : BadgeCollectionConcept(name == "trusted contributor", badgeEarned not contains '1-badge-earned')
+        $GoldCoinsScore : PointConcept(name == "GoldCoins")
+        $PointsScore : PointConcept(name == "AccumulatedPoints")
+        $customData : CustomData(this["level"] >=5)
+ 
+        not AlreadyLevelUp()
+    then
+
+      Double punti = 5.0
+      modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
+      modify($PointsScore) {setScore($PointsScore.getScore() + punti);}
+      String actualLevel = (String)$customData.get("level");  
+      String actualPoints = (String)$customData.get("level_up_points");
+      Double levelPoints = Double.parseDouble(actualPoints);
+      Double myLevel = Double.parseDouble(actualLevel);
+      Integer i = Integer.parseInt(actualLevel);
+
+
+      Double pointThreshold = myLevel*10.0;
+      levelPoints = levelPoints + punti;
+
+      utils.log("threshold: "+pointThreshold);
+      utils.log("punti di livello: "+levelPoints );
+
+      //LEVEL UP
+      if(levelPoints >= pointThreshold){
+      utils.log("apply \' threshold superato\'");
+        Integer newLevel = i + 1;
+        String newLevelString = String.valueOf(newLevel);
+        levelPoints = levelPoints - pointThreshold;
+        $customData.put("level", newLevelString);
+        utils.log("Nuovo Livello: "+newLevelString);
+        update($customData);
+      }
+    
+      String newLevelPoints = String.valueOf(levelPoints);
+      $customData.put("level_up_points", newLevelPoints);
+      utils.log("punti di livello: "+newLevelPoints);
+
+      $bc.getBadgeEarned().add('1-badge-earned');
+      update($bc);
+
+      update($customData);
+      insert(new AlreadyLevelUp());
+ 
+ 
+end
+
+rule "five-validations-with-badge"
+    when
+        Action(id == 'GetsValidatedFiveTimes')
+        $bc : BadgeCollectionConcept(name == "trusted contributor", badgeEarned contains '1-badge-earned')
+        $GoldCoinsScore : PointConcept(name == "GoldCoins")
+        $PointsScore : PointConcept(name == "AccumulatedPoints")
+        $customData : CustomData(this["level"] >=5)
+ 
+        not AlreadyLevelUp()
+    then
+
+      Double punti = 5.0
+      modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
+      modify($PointsScore) {setScore($PointsScore.getScore() + punti);}
+      String actualLevel = (String)$customData.get("level");  
+      String actualPoints = (String)$customData.get("level_up_points");
+      Double levelPoints = Double.parseDouble(actualPoints);
+      Double myLevel = Double.parseDouble(actualLevel);
+      Integer i = Integer.parseInt(actualLevel);
+
+
+      Double pointThreshold = myLevel*10.0;
+      levelPoints = levelPoints + punti;
+
+      utils.log("threshold: "+pointThreshold);
+      utils.log("punti di livello: "+levelPoints );
+
+      //LEVEL UP
+      if(levelPoints >= pointThreshold){
+      utils.log("apply \' threshold superato\'");
+        Integer newLevel = i + 1;
+        String newLevelString = String.valueOf(newLevel);
+        levelPoints = levelPoints - pointThreshold;
+        $customData.put("level", newLevelString);
+        utils.log("Nuovo Livello: "+newLevelString);
+        update($customData);
+      }
+    
+      String newLevelPoints = String.valueOf(levelPoints);
+      $customData.put("level_up_points", newLevelPoints);
+      utils.log("punti di livello: "+newLevelPoints);
+
+      update($customData);
+      insert(new AlreadyLevelUp());
+ 
+ 
+end
+
+rule "single-validations"
+    when
+        Action(id == 'GetValidatedOneTime')
+        $GoldCoinsScore : PointConcept(name == "GoldCoins")
+        $PointsScore : PointConcept(name == "AccumulatedPoints")
+        $customData : CustomData(this["level"] >=5)
+ 
+        not AlreadyLevelUp()
+    then
+
+      Double punti = 1.0
+      modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
+      modify($PointsScore) {setScore($PointsScore.getScore() + punti);}
+      String actualLevel = (String)$customData.get("level");  
+      String actualPoints = (String)$customData.get("level_up_points");
+      Double levelPoints = Double.parseDouble(actualPoints);
+      Double myLevel = Double.parseDouble(actualLevel);
+      Integer i = Integer.parseInt(actualLevel);
+
+
+      Double pointThreshold = myLevel*10.0;
+      levelPoints = levelPoints + punti;
+
+      utils.log("threshold: "+pointThreshold);
+      utils.log("punti di livello: "+levelPoints );
+
+      //LEVEL UP
+      if(levelPoints >= pointThreshold){
+      utils.log("apply \' threshold superato\'");
+        Integer newLevel = i + 1;
+        String newLevelString = String.valueOf(newLevel);
+        levelPoints = levelPoints - pointThreshold;
+        $customData.put("level", newLevelString);
+        utils.log("Nuovo Livello: "+newLevelString);
+        update($customData);
+      }
+    
+      String newLevelPoints = String.valueOf(levelPoints);
+      $customData.put("level_up_points", newLevelPoints);
+      utils.log("punti di livello: "+newLevelPoints);
+
+      update($customData);
+      insert(new AlreadyLevelUp());
+ 
+ 
 end

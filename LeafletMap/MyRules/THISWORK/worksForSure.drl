@@ -30,7 +30,7 @@ then
  
   $customData.put("level_up_points", punti);
   $customData.put("level", "1");
-  $customData.put("points_inserted","0");
+  //$customData.put("points_inserted","0");
 
 
   $bc.getBadgeEarned().add('1-point-green');
@@ -95,8 +95,6 @@ then
 end
 
 
-
-
 //ALL THE VALIDATIONS WITH ALREADY OBTAINED BADGE
 rule "validation-answer-until-level-x"
 when
@@ -109,10 +107,7 @@ when
   not AlreadyLevelUp()
 then
 
-Double  punti = 1.0;
-
-
-
+  Double  punti = 1.0;
   // update the counter
   modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
   modify($PointsScore) {setScore($PointsScore.getScore() + punti);}
@@ -145,15 +140,8 @@ Double  punti = 1.0;
   $customData.put("level_up_points", newLevelPoints);
   utils.log("punti di livello: "+newLevelPoints);
 
-  String actualValidations = (String)$customData.get("answers_validated");
-  Integer myValidations = Integer.parseInt(actualValidations);
-  myValidations= myValidations + 1;
-  String toValidate = String.valueOf(myValidations)
-  $customData.put("answers_validated", toValidate);
-
   update($customData);
   insert(new AlreadyLevelUp());
- 
  
 end
 
@@ -170,10 +158,7 @@ when
   not AlreadyLevelUp()
 then
 
-Double  punti = 1.0;
-
-
-
+  Double  punti = 1.0;
   // update the counter
   modify($GoldCoinsScore){setScore($GoldCoinsScore.getScore() + punti);}
   modify($PointsScore) {setScore($PointsScore.getScore() + punti);}
@@ -205,12 +190,9 @@ Double  punti = 1.0;
   String newLevelPoints = String.valueOf(levelPoints);
   $customData.put("level_up_points", newLevelPoints);
   utils.log("punti di livello: "+newLevelPoints);
-  $customData.put("answers_validated", "1");
-  update($customData)
-
   
   $bc.getBadgeEarned().add('1-badge-earned');
-  update($bc);Data
+  update($bc);
 
   update($customData);
   insert(new AlreadyLevelUp());
@@ -227,6 +209,7 @@ when
   $GoldCoinsScore : PointConcept(name == "GoldCoins")
   $PointsScore : PointConcept(name == "AccumulatedPoints")
   $customData : CustomData(this["level"] >=5)
+ 
   not AlreadyLevelUp()
 then
 
@@ -265,13 +248,6 @@ Double  punti = 3.0;
   String newLevelPoints = String.valueOf(levelPoints);
   $customData.put("level_up_points", newLevelPoints);
   utils.log("punti di livello: "+newLevelPoints);
-
-  //update custom data point-inserted
-  String actualPointsInserted = (String)$customData.get("points_inserted");
-  Integer myinserts = Integer.parseInt(actualPointsInserted);
-  myinserts = myinserts + 1;
-  String toInsert = String.valueOf(myinserts)
-  $customData.put("points_inserted", toInsert);
 
   update($customData);
   insert(new AlreadyLevelUp());
@@ -287,7 +263,7 @@ when
   $bc : BadgeCollectionConcept(name == "contributor", badgeEarned not contains '1-badge-earned')
   $GoldCoinsScore : PointConcept(name == "GoldCoins")
   $PointsScore : PointConcept(name == "AccumulatedPoints")
-  $customData : CustomData(this["level"] >=5 && this["points_inserted"] == null)
+  $customData : CustomData(this["level"] >=5)
  
   not AlreadyLevelUp()
 then
@@ -328,9 +304,6 @@ Double  punti = 3.0;
   $customData.put("level_up_points", newLevelPoints);
   utils.log("punti di livello: "+newLevelPoints);
 
-  $customData.put("points_inserted", "1");
-  update($customData)
-
   $bc.getBadgeEarned().add('1-badge-earned');
   update($bc);
 
@@ -339,10 +312,6 @@ Double  punti = 3.0;
  
  
 end
-
-
-
-
 
 // RULES FOR LEVELS
 rule "beginner_level"
@@ -405,7 +374,7 @@ rule "expert_contributor"
     salience -1000
     when
         $customData : CustomData(this["points_inserted"] ==20)
-	$bc : BadgeCollectionConcept(name == "expert contributor badge", badgeEarned not contains '1-badge-earned')
+	$bc : BadgeCollectionConcept(name == "expert contributor", badgeEarned not contains '1-badge-earned')
 	Game( $gameId: id)
 	Player( $playerId : id)
     then
