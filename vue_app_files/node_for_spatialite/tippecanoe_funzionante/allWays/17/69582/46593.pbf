@@ -1,0 +1,249 @@
+Ô\x
+combined(€ typeidtagscolor"
+way" ÇÍÂø"
+{"highway":"path"}"	
+#80B27F" §Ÿ¢Á"'
+%{"highway":"path","surface":"ground"}"	
+#FD5786" ½ı¯"v
+t{"highway":"tertiary","lanes":"2","name":"Lungadige Marco Apuleio","narrow":"yes","oneway":"no","surface":"asphalt"}"	
+#8BD8DB" «ÔÅl"L
+J{"footway":"sidewalk","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#2C341B" ¥¤ù¦"	
+#8798A4" ‡ö³"?
+={"access":"private","highway":"service","service":"driveway"}"	
+#21407D" ™Ñ­´"S
+Q{"highway":"living_street","lit":"yes","name":"Via DÃ²s Trento","surface":"sett"}"	
+#F9E6FA" ª±‘ê"E
+C{"highway":"service","service":"parking_aisle","surface":"asphalt"}"	
+#46D120" îÙô³"R
+P{"footway":"sidewalk","highway":"footway","lit":"yes","surface":"paving_stones"}"	
+#EAD461" ‡Íù¦"]
+[{"crossing":"marked","footway":"crossing","highway":"footway","lit":"yes","surface":"sett"}"	
+#242FE3" İ¹ø¦"L
+J{"footway":"crossing","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#929ECF" ˆÍù¦"X
+V{"highway":"pedestrian","lit":"yes","name":"Piazza di Piedicastello","surface":"sett"}"	
+#203BE2" ˆö³"[
+Y{"highway":"pedestrian","lit":"yes","name":"Vicolo di Piedicastello","surface":"asphalt"}"	
+#A71B38" ‰ö³"D
+B{"area":"yes","highway":"pedestrian","lit":"yes","surface":"sett"}"	
+#693DB0" °ÏÄ"h
+f{"area":"yes","highway":"pedestrian","lit":"yes","name":"Piazza di Piedicastello","surface":"asphalt"}"	
+#86C25D" ÅŒŸZ"+
+){"highway":"service","surface":"asphalt"}"	
+#AB098E" š¸ìñ"a
+_{"highway":"tertiary","lanes":"2","name":"Via Brescia","old_ref":"SS45bis","surface":"asphalt"}"	
+#C411EC" ‡¯ù¦"	
+#890BC8" Ş¹ø¦"X
+V{"footway":"sidewalk","highway":"footway","layer":"1","lit":"yes","surface":"asphalt"}"	
+#BA9558" «œª´"^
+\{"highway":"living_street","lit":"yes","name":"Vicolo di Piedicastello","surface":"asphalt"}"	
+#F1851A" †ö³"	
+#028B8E" şº”ª"=
+;{"highway":"footway","lit":"yes","surface":"paving_stones"}"	
+#ED9227" öÙô³"	
+#02D6EC" †Íù¦"a
+_{"highway":"pedestrian","lit":"yes","name":"Piazza di Piedicastello","surface":"paving_stones"}"	
+#892171" ¡Ø™Å";
+9{"highway":"footway","lit":"yes","surface":"fine_gravel"}"	
+#8F1EDF" ïÙô³"4
+2{"highway":"footway","lit":"yes","surface":"sett"}"	
+#62DAFC" ğÙô³"	
+#E95F84" ŸØ™Å"	
+#F8C71D" ÄŞö³"	
+#F23DCD" ¤ÙÂø"	
+#429B4A" õÙô³"o
+m{"footway":"sidewalk","highway":"footway","incline":"down","lit":"yes","ramp":"separate","surface":"asphalt"}"	
+#890D63" §äø¦"7
+5{"highway":"footway","lit":"yes","surface":"asphalt"}"	
+#A71676" Ãƒü¦"	
+#775450" ªäø¦"^
+\{"handrail":"yes","highway":"steps","incline":"up","lit":"yes","ramp":"no","surface":"sett"}"	
+#6C6321" ¨äø¦"	
+#152AB2" ÆŞö³"C
+A{"highway":"footway","incline":"up","lit":"yes","surface":"sett"}"	
+#9B8DD5" ³äø¦"°
+­{"bicycle":"designated","cycleway:surface":"asphalt","foot":"designated","footway:surface":"asphalt","highway":"cycleway","lit":"yes","segregated":"yes","surface":"asphalt"}"	
+#B43E68" ·™»"i
+g{"handrail":"yes","highway":"steps","incline":"down","lit":"yes","ramp":"separate","surface":"asphalt"}"	
+#CA40BF" ¾’¢Ê"~
+|{"bicycle":"designated","foot":"designated","highway":"cycleway","layer":"1","lit":"yes","segregated":"no","surface":"sett"}"	
+#556E3D" „ö³"g
+e{"area":"yes","highway":"pedestrian","lit":"yes","name":"Piazzetta Sant'Apollinare","surface":"sett"}"	
+#6E2BE1" ìÅù¦"²
+¯{"bicycle":"designated","foot":"designated","highway":"cycleway","incline":"down","lit":"yes","ramp":"separate","ramp:wheelchair":"yes","segregated":"no","surface":"concrete"}"	
+#B14E8F" ÅŞö³"	
+#5F5433" ¸ìñ"´
+±{"bicycle":"designated","crossing":"zebra","cycleway":"crossing","foot":"designated","footway":"crossing","highway":"cycleway","lit":"yes","segregated":"no","surface":"asphalt"}"	
+#73451C" ¬‚ú"p
+n{"highway":"tertiary","lanes":"1","name":"Via Brescia","old_ref":"SS45bis","oneway":"yes","surface":"asphalt"}"	
+#94787D" œ¸ìñ"r
+p{"bicycle":"designated","foot":"designated","highway":"cycleway","lit":"yes","segregated":"no","surface":"sett"}"	
+#D46D62" ›¸ìñ"\
+Z{"highway":"tertiary","lanes":"1","name":"Via Brescia","oneway":"yes","surface":"asphalt"}"	
+#BB5881" éûù¦"	
+#363961" óæ…§"	
+#62C83E" Û»’"ˆ
+…{"highway":"residential","lit":"yes","maxspeed":"30","name":"Via Verruca","oneway":"yes","surface":"asphalt","zone:maxspeed":"IT:30"}"	
+#19A9A4" òæ…§"	
+#CFF575" ›‚ù"ˆ
+…{"highway":"residential","lit":"yes","maxspeed":"30","name":"Via Papiria","oneway":"yes","surface":"asphalt","zone:maxspeed":"IT:30"}"	
+#0E66FB" îæ…§"	
+#59A3AF" ¤äø¦"	
+#4A3F9F" æá¨"	
+#F2B3AA" ¦äø¦"	
+#8E7375" «äø¦"	
+#C84DFD" Áƒü¦"
+Œ{"highway":"unclassified","lanes":"1","lit":"yes","maxspeed":"30","noname":"yes","oneway":"yes","surface":"asphalt","zone:maxspeed":"IT:30"}"	
+#E5D1F4" ßóÃ"	
+#342911" ¯äø¦"	
+#4C3EDC" ±äø¦"g
+e{"handrail":"yes","highway":"steps","incline":"up","lit":"yes","ramp":"no","surface":"paving_stones"}"	
+#27AC95" ¥äø¦"	
+#6CFF22" Éö³"	
+#98B8E8" åá¨"	
+#28631E" ²ö³"	
+#CA0ABB" êûù¦"	
+#A93037" ïûù¦"	
+#1D1145" ­äø¦"	
+#C1DD23" ½’¢Ê"…
+‚{"cycleway:surface":"asphalt","footway:surface":"asphalt","highway":"cycleway","lit":"yes","segregated":"yes","surface":"asphalt"}"	
+#1A73B2" «±‘ê"6
+4{"highway":"footway","lit":"yes","surface":"gravel"}"	
+#4CAB68" ãÙô³"	
+#C5B303" õÛˆ´"	
+#7EB4BD" åÙô³"q
+o{"handrail":"yes","highway":"steps","incline":"down","lit":"yes","ramp":"no","step_count":"9","surface":"sett"}"	
+#FD8196" æÙô³"	
+#2341F0" äÙô³"	
+#2477DE" Çœû³"M
+K{"area":"yes","highway":"pedestrian","lit":"yes","surface":"paving_stones"}"	
+#283FF9" Ëœû³"	
+#A5A465" ™ëø¦"g
+e{"access":"private","highway":"residential","name":"Piazzetta Sant'Apollinare","surface":"compacted"}"	
+#568CEA" éÙô³"	
+#B33EFD" àœû³"	
+#DB9B49" ÖòòÁ"y
+w{"highway":"tertiary","junction":"roundabout","lanes":"1","name":"Via Brescia","old_ref":"SS45bis","surface":"asphalt"}"	
+#F58F97" ¶™»"	
+#03FA82" ¹™»"	
+#8861BA" Ï¸ÚÊ"h
+f{"highway":"tertiary","lanes":"1","name":"Lungadige Marco Apuleio","oneway":"yes","surface":"asphalt"}"	
+#0C4FF1" Û¹ø¦"_
+]{"crossing":"zebra","footway":"crossing","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#F8484B" Ğ¸ÚÊ"w
+u{"highway":"tertiary","lanes":"1","name":"Lungadige Marco Apuleio","narrow":"yes","oneway":"yes","surface":"asphalt"}"	
+#9EF7E4" ¼ÏŞ:"	
+#FE880B" Æş"R
+P{"bridge":"yes","highway":"footway","layer":"1","lit":"yes","surface":"asphalt"}"	
+#47CAF7" Çş"`
+^{"crossing":"marked","footway":"crossing","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#DBAD83" –ö³"	
+#BDA683" ¡¸ìñ"	
+#77CA47"  ¸ìñ"ƒ
+€{"highway":"tertiary","lanes":"1","lit":"yes","maxspeed":"40","name":"Lungadige San NicolÃ²","oneway":"yes","surface":"asphalt"}"	
+#3F16A2" ¢¸ìñ"	
+#A39388" Ÿ¸ìñ"	
+#467FED" ìûù¦"	
+#AE1F4C" ß¹ø¦"r
+p{"bicycle":"dismount","foot":"designated","footway":"sidewalk","highway":"footway","lit":"yes","surface":"sett"}"	
+#9783F1" µäø¦"X
+V{"bicycle":"designated","foot":"no","highway":"cycleway","lit":"yes","surface":"sett"}"	
+#669F74" £¸ìñ"[
+Y{"bicycle":"designated","foot":"no","highway":"cycleway","lit":"yes","surface":"asphalt"}"	
+#D5060C" ´Ùô³"	
+#CB2B59" »ÏŞ:"	
+#B12A19" ¹ÏŞ:"	
+#A81BCC" ¸ÏŞ:"m
+k{"bridge":"yes","footway":"sidewalk","highway":"footway","layer":"1","lit":"yes","surface":"paving_stones"}"	
+#862D7A" °«‹"
+›{"bridge":"yes","highway":"tertiary","lanes":"2","layer":"1","maxweight:signed":"no","name":"Ponte di San Lorenzo","old_ref":"SS45bis","surface":"asphalt"}"	
+#98B69E" ·ÏŞ:"	
+#DF6484" íüü"u
+s{"highway":"tertiary","lanes":"2","maxspeed":"40","name":"Lungadige San NicolÃ²","oneway":"no","surface":"asphalt"}"	
+#3574A6"  œèñ"è
+å{"bicycle":"designated","foot":"designated","highway":"cycleway","name":"Pista Ciclabile Valle dell'Adige","name:de":"Etschtalradweg","name:it":"Pista Ciclabile Valle dell'Adige","rcn":"yes","segregated":"no","surface":"asphalt"}"	
+#39BEA8" “Ä”‘"*
+({"highway":"track","tracktype":"grade2"}"	
+#0A24BB  "	ø= A<ŸÌ© ¯'  "	ú)Î(*Ö£	¶»
+æ±ú»	4Ÿ1  	"#	¶8ŸB! /Ü»ÔÁºã¤ú±à›Ü  
+"	¤ä
+£’Ÿh  "	Ÿş4l7Ñ  "	¬ŸZ   "	/
+ªo  "	öŸ *˜  "	¤ä
+Ş·<#  "	¢’©§‡   "	Î„)›1‡)  !"#"	Ÿ°: aøã …¢]ldÀ`  $%&"	¾ˆàİüé2  '()"$	‚Z08ŸÊ|ñ”CI/-lI€¢MP)e  *+,"W	ÚÚ0.DJÂÌìŞæ0Š&<(˜Zè²eé¡Ç1ß#ı‰R?;û°(‡,Y E ³ kÈÙÔ¡  -./"	ŸşN¦RĞ’¸8  012"*	şĞZ±ÕÇŸïãwå%w™×£˜Ÿ**  34"	–ĞBõ£íy)Û÷
+am_0*  567"	¢’BPNn´È’ÔRìºt@  89:"
+	š@?h/  ;<"		Â0
+Š‚   =>?"	¶À"ŸI›¹ƒ	/3  @A"%	‚¬RÚäÚÒšxº^Pº<ˆrpŠ’  BCD"	ÊĞ¨LÆdş@  EFG"	Ø¸ˆk)³  HIJ"		¼
+zİ  KIL"		èŞ
+1   MIN"	¶À"ÖIŒs®i  OP"	ôº‡çÕ  Q6R"	¢„¤ê°lZ  STU"		œØ
+0…  VWX"	–Ğ¾†¤  YZ"
+	ª²
+œŒ  [\]"	Öˆ
+F!  ^W_"
+	Â¢
+”™  `ab"	œæ
+X+6  cde"(	Ø’)R¯ ¯w9×ÛIë½›™Ãñ•Ë  fgh"		ÌÒ
+p³  ijk"	ˆ²Ì¾˜NÖbG  lmn"9	”#¤
+’xš),'HVl^hN€ÓĞöú‡fõû±ç¤ œMPd
+F  opq"8	ˆ²¢ü8
+ şÂ0>ğ !‰ã)×!/!‡ßG  rs"	Ú"e§CQqmÉí  tuv"	º–Q£  wxy"	Ü"¸‰sÓs  z{|"		ê¬
+P•  }~"	şĞ°²€Ô
+  €u"	œæ’c<U
+  ‚ƒ"	ª²©²Ÿ>  „…†"	°ÈŸ<!
+  ‡ˆ"	Ÿø) ;–‘°ë1  ‰Š‹" 	Ÿ˜<: a’•Ö¡˜×À+ŠÕşù%
+  Œ"	ôŒ+"ïĞõ’Ÿ^
+  "
+	’ 8
+Ì
+  ‘"
+	ğü5
+²˜
+  ’“"
+	èş2
+œ¦ 
+  ”•"	ôŒ+-cÛ½£«1  –—˜" 	Èª,R ‘8ac‡ı	A3CO 5…0
+  ™Wš"	üº%
+A!
+  ›œ"	²0"ÇhKO_S  Ÿ"
+	˜Š-
+ªğ
+   ¡"
+	€¦0
+ˆî4
+  ¢£"$	„¤6Z€šbp°¬BN&DV b’¬  
+  ¤¥"
+	Ê¤.
+œ¸4
+  ¦§"$	¢ AR.ŸÒ¯è$¯õ]wñ‰U«B)!
+  ¨d©"	Ø’)•è¿†- -
+  ª«"	ö#â&B7T7z!V/…²Zä¯Ö3 %
+  ¬W­"	´ä@*#cIÙ Ék>Ñ  ®¯°"	²"²/¥Î3   ±²³"	â'Èƒ‘ı–(
+  ´Iµ"	°î:3 -'*)ÂçH'úá<
+  ¶(·",	„(¾b\šè£8c·ËØ™"w™b7åIY´í  ¸¹º"		Ö#ú
+
+ª}  »¹¼"		ˆ%¤
+§"
+  ½>¾"	€%ü	"â³X/†ı4  ¿ÀÁ"#	š.¤B<äX’Õ U¡¤[†—…Ÿ
+  Â>Ã"
+	â'È
+È–,  ÄÅÆ"	#ˆ:¬!¶àœ–tât4
+  ÇÈ"$	¢,r!6BJ	„D4*!!'Q·
+  ÉÊ"	è/È g3?KU  ËÌÍ"D	Î%¦#Òb?>?6E3 io‘7…YswUs3‹4{V[t;’6|ZprV‚4ŒŒp/)
+  Î{Ï"	Â :º\Jª@Ô
+à#
+  ĞÑ"	*¾nKlkş½  ÒÓÔ"	´+Ä÷të8  ÕÖ×"
+	*¾
+¢ê  ØÙÚ"	ì'ÒŒ…¼‡&
+  ÛÜ"	ò*Ü!2/;?a˜ÓÔÛ(  İŞß"	 2Ì*.¤ÿìñÖï6Ÿ  àáâ"		ş1¼
+•s
+  ãWä"	ş1¼
+"
+  åuæ"	Š!°%Wµ  çèé"	øà!H¸ „
+  ê{ë"		¾"à%
+³/  ìèí"	à œ*®Ğµ
+  îuï"
+	ö#â&gUO+"  ğñò"	Î)’$*<}&yBaH_d&  óôõ"	Î)’$*šó¶›jAd1f  ö÷ø"	¬$–)Oö©¦
+  ù1ú"	¤'à!è’"  ûáü"	Ú*Ê!M¨= 
+  ış"	ö)$
+'  ÿ€"	 A¼*Ÿ=¡  ‚ƒ„"	®*„#Ò¶ >  …€†"	 A¬-Ÿ=‰ß"  ‡ˆ‰"	ä A0ŸÈ×„‹  Š‹Œ"		 AĞ?
+MĞ"  "	ö A:ŸŠûÀµ

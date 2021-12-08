@@ -1,0 +1,14 @@
+{
+"name": "201175004",
+"description": "201175004",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "17",
+"center": "11.185455,46.057032,17",
+"bounds": "11.181954,46.051684,11.185752,46.058942",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe -z17 --no-tile-compression -e 201175004 --no-tile-compression -l combined only2Ways/way201175004.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"combined\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 17, \"fields\": {\"color\": \"String\", \"id\": \"Number\", \"tags\": \"String\", \"type\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"combined\",\"count\": 1,\"geometry\": \"LineString\",\"attributeCount\": 4,\"attributes\": [{\"attribute\": \"color\",\"count\": 1,\"type\": \"string\",\"values\": [\"#353E9D\"]},{\"attribute\": \"id\",\"count\": 1,\"type\": \"number\",\"values\": [201175004],\"min\": 201175004,\"max\": 201175004},{\"attribute\": \"tags\",\"count\": 1,\"type\": \"string\",\"values\": [\"{\\\"bicycle\\\":\\\"yes\\\",\\\"foot\\\":\\\"yes\\\",\\\"highway\\\":\\\"path\\\",\\\"mtb:scale\\\":\\\"3\\\",\\\"mtb:scale:uphill\\\":\\\"4\\\",\\\"sac_scale\\\":\\\"mountain_hiking\\\",\\\"trail_visibility\\\":\\\"good\\\"}\"]},{\"attribute\": \"type\",\"count\": 1,\"type\": \"string\",\"values\": [\"way\"]}]}]}}"
+}

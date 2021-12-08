@@ -1,0 +1,843 @@
+¹ğx
+combined(€ typeidtagscolor"
+way" ê”å”"Á
+¾{"bicycle":"yes","designation":"IT-TN:strada_forestale_tipo_a","emergency":"yes","foot":"yes","forestry":"yes","highway":"path","horse":"yes","motor_vehicle":"forestry","tracktype":"grade3"}"	
+#0ED758" ÒÿßÁ"
+{"highway":"path"}"	
+#261152" ­™ğ‘"
+{"highway":"track"}"	
+#E73FDC" ¢âŸ9"D
+B{"highway":"track","name":"Strada di Omalga","tracktype":"grade1"}"	
+#D9AEFC" îĞÌÎ"	
+#D467DC" ïĞÌÎ"	
+#39EC19" €‰õj"ş
+û{"access":"yes","bicycle":"yes","designation":"IT-TN:strada_forestale_tipo_a","emergency":"yes","foot":"yes","forestry":"yes","highway":"track","horse":"yes","motor_vehicle":"forestry","name":"Strada dei comuni","sidewalk":"none","tracktype":"grade3"}"	
+#E15A4C" äÆÚJ"9
+7{"highway":"unclassified","name":"Strada della Casara"}"	
+#433888" —šß"A
+?{"highway":"residential","name":"Strada per Tez","oneway":"no"}"	
+#936F8D" áª”:"Y
+W{"highway":"secondary","loc_ref":"SP85dir","name":"Strada di SpinÃ©da","ref":"SP85dir"}"	
+#5B0911" íŞŠ™"0
+.{"highway":"residential","name":"Via Canelli"}"	
+#481F47" ÇË"
+{"highway":"service"}"	
+#1F7B2E" ŠØ§O"*
+({"highway":"track","tracktype":"grade2"}"	
+#E14301" ‹Î÷ò"	
+#CF433F" êªçù"	
+#75C16C" µíò#"+
+){"highway":"unclassified","oneway":"yes"}"	
+#D8AEFE" Ù‡‰±"
+{"highway":"footway"}"	
+#ACFA76" «ò©{"5
+3{"highway":"unclassified","name":"Sponda Trentina"}"	
+#87AEC3" ‘İğâ";
+9{"highway":"unclassified","name":"Via di Camparta Bassa"}"	
+#D14A46" ü–È’";
+9{"highway":"unclassified","name":"Via di Camparta Media"}"	
+#F7D98B" òÍ´ä")
+'{"highway":"path","sac_scale":"hiking"}"	
+#9DD7E7" î±Ï&"z
+x{"bicycle":"yes","foot":"yes","highway":"track","horse":"no","ski":"no","snowmobile":"no","wheelchair":"no","width":"1"}"	
+#3F629C" Ö«¢T"…
+‚{"alt_name":"Strada Provinciale 76 Gardolo - Lases","highway":"secondary","name":"Strada del Porfido","oneway":"yes","ref":"SP76"}"	
+#652199" ×«¢T"	
+#98E786" ¼¯˜("7
+5{"highway":"unclassified","name":"Salita ai Cantoni"}"	
+#024647" ¾¯˜("6
+4{"highway":"residential","name":"Salita ai Cantoni"}"	
+#2A5B79" Ê€‰±"	
+#E1A5A6" ˜İğâ"5
+3{"highway":"unclassified","name":"Via dei Fragari"}"	
+#AF348A" ’Ñš/"2
+0{"highway":"unclassified","name":"Strada Fonda"}"	
+#E11A0F" ÁÂ´"3
+1{"highway":"residential","name":"Via alla Costa"}"	
+#18CDB0" ‹Œœ/"5
+3{"highway":"residential","name":"Via alle Oselere"}"	
+#48985D" €ü"1
+/{"highway":"track","name":"Strada di Pramalga"}"	
+#25FD21" ØĞ¬¶"	
+#60B4DB" Õ«¢T"u
+s{"alt_name":"Strada Provinciale 76 Gardolo - Lases","highway":"secondary","name":"Strada del Porfido","ref":"SP76"}"	
+#E0743E" Úöô¼"	
+#51EAF8" ùÛ†Â"	
+#0A6E79" €Ù‹º"	
+#9BC22E" ŸÖ‹º")
+'{"highway":"path","motor_vehicle":"no"}"	
+#A8E5DB" ³Á¼i"9
+7{"highway":"path","smoothness":"good","surface":"dirt"}"	
+#F6743F" ¶—Œİ"5
+3{"highway":"footway","lit":"no","surface":"ground"}"	
+#6ADB9B" –õ¨"q
+o{"bicycle":"yes","highway":"unclassified","maxspeed":"30","name":"Lungavisio Luigi Tomasi","surface":"asphalt"}"	
+#87C349" éåˆH"I
+G{"highway":"unclassified","lit":"yes","name":"Lungavisio Luigi Tomasi"}"	
+#CC2095" ¹‰H"	
+#E6B75D" Ñ‡‰±"I
+G{"highway":"unclassified","name":"Via del Maso Bianco","ref":"SP76dir"}"	
+#12710A" ’şª€"	
+#0F4FCB" ãÆÚJ"’
+{"access":"forestry","bicycle":"yes","designation":"IT-TN:strada_forestale_tipo_a","emergency":"yes","foot":"yes","forestry":"yes","highway":"track","horse":"yes","motor_vehicle":"forestry","name":"Strada forestale de la Casara","sac_scale":"hiking","tracktype":"grade3"}"	
+#1ACE61" ñº•o"\
+Z{"foot":"yes","highway":"track","mtb:scale":"0","sac_scale":"hiking","tracktype":"grade3"}"	
+#B413A7" İÇËz"¦
+£{"highway":"path","horse":"no","mtb:scale":"3","mtb:scale:uphill":"5","sac_scale":"demanding_mountain_hiking","surface":"ground","trail_visibility":"intermediate"}"	
+#F92A58" ¦ªé"B
+@{"highway":"path","mtb:scale":"2","sac_scale":"mountain_hiking"}"	
+#1EE174" ©ÍÈz"9
+7{"highway":"path","mtb:scale":"0","sac_scale":"hiking"}"	
+#B457BA" ­¹Ÿ";
+9{"highway":"path","mtb:scale":"0","mtb:scale:uphill":"1"}"	
+#EABF45" â³±Å"<
+:{"highway":"track","mtb:scale":"1","mtb:scale:uphill":"1"}"	
+#D38300" Ş»éf",
+*{"highway":"service","service":"driveway"}"	
+#382F9D" ˆ¾…"H
+F{"highway":"secondary","name":"Strada del Monte Bondone","ref":"SP85"}"	
+#EE5D91" ‡ÖÆ;"
+{"highway":"unclassified"}"	
+#8761B6" ºá¯."
+š{"highway":"tertiary","lanes":"2","maxspeed":"50","name":"Via Brescia","old_ref":"SS45bis","oneway":"no","source:maxspeed":"IT:urban","surface":"asphalt"}"	
+#D567B8" ÙÜŠĞ"E
+C{"cycleway:both":"no","highway":"unclassified","surface":"asphalt"}"	
+#C8B6E2" ñˆëº"'
+%{"highway":"path","surface":"ground"}"	
+#E8CF2D" ÇÍÂø"	
+#80B27F" ¡ÄÜ«"	
+#A4FCCF" úˆëº"	
+#F41752" Éÿ§¹"	
+#6D2DB6" §Ÿ¢Á"	
+#FD5786" —ïÃ7"X
+V{"highway":"residential","maxspeed":"30","name":"Via DÃ²s Trento","surface":"asphalt"}"	
+#375D99" Éş"L
+J{"footway":"sidewalk","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#EE26F2" ½ı¯"v
+t{"highway":"tertiary","lanes":"2","name":"Lungadige Marco Apuleio","narrow":"yes","oneway":"no","surface":"asphalt"}"	
+#8BD8DB" £ò¥>"è
+å{"bicycle":"designated","foot":"designated","highway":"cycleway","name":"Pista Ciclabile Valle dell'Adige","name:de":"Etschtalradweg","name:it":"Pista Ciclabile Valle dell'Adige","rcn":"yes","segregated":"no","surface":"asphalt"}"	
+#7C4205" ‚—È’"7
+5{"bridge":"yes","highway":"unclassified","layer":"1"}"	
+#446133" äóø&"m
+k{"highway":"unclassified","name":"Vicolo Giacomo Felice Bortolotti","short_name":"Vicolo G. F. Bortolotti"}"	
+#7282A9" ±€ù&"	
+#15F1F0" “Æ˜("	
+#310BD0" èóô¼"	
+#724F2F" Ãºøº"	
+#BA2E7D" ØÓË¶"	
+#BE7FBE" ÿ©øû"
+š{"access":"yes","bicycle":"unknown","foot":"unknown","highway":"track","horse":"unknown","motor_vehicle":"unknown","mtb:scale":"1","mtb:scale:uphill":"1"}"	
+#3EED07" òŒèº"0
+.{"highway":"path","visibility":"intermediate"}"	
+#49AF24" âËÁ¡"I
+G{"footway":"sidewalk","highway":"footway","lit":"yes","surface":"sett"}"	
+#BB65C9" Ÿ·/"-
++{"covered":"colonnade","highway":"footway"}"	
+#91D097" ¯íÇ "Á
+¾{"highway":"tertiary","lanes":"3","maxspeed:type":"IT:urban","name":"Via Gian Domenico Romagnosi","oneway":"yes","parking:lane:both":"no_parking","psv:lanes":"no|no|yes","surface":"asphalt"}"	
+#1EE4F2" ÿş¿I"u
+s{"bicycle":"designated","foot":"designated","highway":"cycleway","lit":"yes","segregated":"no","surface":"asphalt"}"	
+#4D1623" ôÃÉy"A
+?{"handrail":"yes","highway":"steps","incline":"up","ramp":"no"}"	
+#3F326B" “¸¡I"°
+­{"bicycle":"designated","cycleway:surface":"asphalt","foot":"designated","footway:surface":"asphalt","highway":"cycleway","lit":"yes","segregated":"yes","surface":"asphalt"}"	
+#44AC5A" ÷Ö"ü
+ù{"highway":"unclassified","lane_markings":"no","lit":"yes","maxspeed:type":"IT:urban","name":"Via Clementino Vannetti","oneway":"yes","parking:condition:right":"ticket","parking:lane:right":"parallel","short_name":"Via Vannetti","surface":"asphalt"}"	
+#476D79" ƒÿ¿I"	
+#31C8E7" é¹›j"	
+#CEB519" ´¶›j"	
+#FA5CD4" ‰‡¾r"Ç
+Ä{"highway":"secondary","lanes":"2","maxspeed:type":"IT:urban","name":"Via Francesco Petrarca","oneway":"yes","parking:lane:both":"no_parking","surface":"asphalt","turn:lanes":"left|through;right"}"	
+#943AC0" ãŸ÷R"	
+#21974E" ±–°"ÿ
+ü{"highway":"secondary","lanes":"2","lit":"yes","maxspeed":"50","name":"Via Alessandro Manzoni","oneway":"yes","parking:condition:both":"ticket","parking:lane:both":"parallel","parking:lane:right":"parallel","source:maxspeed":"sign","surface":"asphalt"}"	
+#EDE8C2" Ë­Ü"Ï
+Ì{"highway":"pedestrian","lane_markings":"no","lit":"yes","maxspeed:type":"IT:urban","name":"Via San Martino","oneway":"yes","parking:lane:left":"yes","parking:lane:right":"no_parking","surface":"asphalt"}"	
+#7E025D" ´Â›j"	
+#2E2AE3" ¿ÊJ"E
+C{"highway":"service","service":"parking_aisle","surface":"asphalt"}"	
+#DDDF31" ú ä"e
+c{"cycleway:both":"no","highway":"unclassified","name":"Salita della spalliera","surface":"asphalt"}"	
+#D5C0BE" ÷ä¦:"6
+4{"highway":"pedestrian","name":"Via dei Cappuccini"}"	
+#CEF085" å¦:",
+*{"footway":"sidewalk","highway":"footway"}"	
+#B45CBA" •›7"*
+({"access":"private","highway":"service"}"	
+#0EFEBB" Õ•›7"	
+#09D573" Ÿå¦:"	
+#043B58" „ìì$"	
+#2944EE" «¾ø%"6
+4{"highway":"service","name":"Via del Pra dei Frati"}"	
+#826E72" †Ÿ¦"
+›{"foot":"no","highway":"secondary","horse":"no","layer":"-1","maxspeed":"30","name":"Via per Cognola","parking:lane:both":"no_parking","surface":"asphalt"}"	
+#05ED8F" ¤¾ø%"„
+{"bridge":"yes","cycleway:both":"no","highway":"secondary","layer":"1","name":"Via Bassano","old_ref":"SS47","surface":"asphalt"}"	
+#968FA5" Ë£Š"V
+T{"access":"forestry","bicycle":"yes","foot":"yes","highway":"track","mtb:scale":"1"}"	
+#1F9EE8" Üú"<
+:{"highway":"track","mtb:scale":"1","oneway:bicycle":"yes"}"	
+#29E65F" â‰è²"	
+#0F9918" Ø›¼"
+{"highway":"residential"}"	
+#903D08" ÍÍ×"6
+4{"highway":"unclassified","name":"Via Doss Castion"}"	
+#4DAC6F" ÆÍ×"	
+#C6D944" óÀãY"3
+1{"highway":"residential","name":"Via dei Pozati"}"	
+#971A55" Íİ"‘
+{"cycleway:both":"no","foot":"no","highway":"secondary","layer":"-1","name":"Via Bassano","old_ref":"SS47","surface":"asphalt","tunnel":"yes"}"	
+#3FBD53" Ö"W
+U{"highway":"unclassified","name":"Via Ponte Alto","oneway":"yes","surface":"asphalt"}"	
+#3CFAA9" Õ—Ì"4
+2{"highway":"unclassified","name":"Via dei Michei"}"	
+#CEF49A" åšê"I
+G{"highway":"residential","name":"Via alla Cascata","surface":"asphalt"}"	
+#C98356" ªˆôÃ"M
+K{"access":"no","highway":"unclassified","oneway":"yes","surface":"asphalt"}"	
+#D94E2B" –›"B
+@{"highway":"residential","name":"Via del Senter","oneway":"yes"}"	
+#136BB0" ƒÖ‘É"L
+J{"highway":"unclassified","name":"Via Vittorio Marchesoni","oneway":"yes"}"	
+#F96292" ßÔüÊ"	
+#12FF50" î¶Â¦"	
+#47829F" ©¾†Â"	
+#256270" §Ã¸"	
+#E8C9C1" àÊ÷¸"h
+f{"highway":"path","sac_scale":"mountain_hiking","trail_visibility":"intermediate","visibility":"good"}"	
+#2D9F79" ¢Óü"	
+#B98AA3" ¼ú|"	
+#83BB35" øŠ‹"5
+3{"bicycle":"yes","highway":"track","mtb:scale":"1"}"	
+#49571B" „£"	
+#7D9021" Û¦ÆN";
+9{"highway":"unclassified","name":"Via al Maso Frachetti"}"	
+#1053F2" Úóˆ‘"	
+#44F3B3" Ô—Ì"2
+0{"highway":"unclassified","name":"Via per Pila"}"	
+#1F5501" û©Œ"<
+:{"highway":"track","name":"Via per Cantanghel","ref":"5a"}"	
+#345D08" ª‡ğ"?
+={"highway":"tertiary","name":"Strada Imperiale","ref":"SP17"}"	
+#C0F469" å¥Í"	
+#AC2F99" âšê"O
+M{"disused":"yes","highway":"unclassified","oneway":"yes","surface":"asphalt"}"	
+#530BCA" µ¸Ö"K
+I{"highway":"residential","name":"Via Vittorio Marchesoni","oneway":"yes"}"	
+#EF0CD3" İí%"9
+7{"highway":"residential","name":"Via della Resistenza"}"	
+#ACD8B5" œÃŒ7"	
+#0BB811" å›"	
+#0545E3" Öø¥}"	
+#A5B83D" Øø¥}"	
+#6A7CD5" €şˆÁ"	
+#873347" Ùô˜n"!
+{"foot":"yes","highway":"path"}"	
+#CE8645" æ‹Ã€"	
+#921ABF" °×“s"æ
+ã{"bicycle":"yes","designation":"IT-TN:strada_forestale_tipo_a","emergency":"yes","foot":"yes","forestry":"yes","highway":"track","horse":"yes","motor_vehicle":"forestry","name":"Strada Forestale Spigozaia","tracktype":"grade3"}"	
+#648EC1" ¯¢È¬"	
+#710F20" ÎŠÜü"	
+#4B77C7" ×«”:"0
+.{"highway":"unclassified","surface":"asphalt"}"	
+#2978EE" ğĞÌÎ"	
+#5A6A5E" é†¼M"N
+L{"highway":"unclassified","name":"Strada di Castelpian","surface":"asphalt"}"	
+#D7A8F0" î†¼M"	
+#D9849C" üª”:"5
+3{"highway":"unclassified","name":"Via del DÃ²ssol"}"	
+#4BB343" í†İ<"	
+#4D8B88" Åÿ9"	
+#08C28B" É¶ñ"B
+@{"highway":"unclassified","name":"Via di Vincia","oneway":"yes"}"	
+#DD955A" œà³"4
+2{"highway":"unclassified","name":"Via di Vegiara"}"	
+#720B84" úª”:"4
+2{"highway":"unclassified","name":"Via dei Segati"}"	
+#50D889" àşÉÀ":
+8{"highway":"track","mtb:scale":"1","tracktype":"grade2"}"	
+#D3060A" Öª”:"`
+^{"highway":"secondary","name":"Strada del Pra del BÃ²ter","ref":"SP85dir","surface":"asphalt"}"	
+#D75EFB" Ş³±Å"Q
+O{"highway":"track","mtb:scale":"2","mtb:scale:uphill":"2","tracktype":"grade5"}"	
+#DD8E12" áÚç="Q
+O{"highway":"track","mtb:scale":"1","mtb:scale:uphill":"2","tracktype":"grade3"}"	
+#FB3154" ãºÖı"u
+s{"highway":"unclassified","maxspeed":"40","name":"Strada della Brigolina","surface":"asphalt","tracktype":"grade1"}"	
+#AA9E6E" ±€Ù,"g
+e{"highway":"residential","lanes":"1","maxspeed":"30","name":"Via Pra de la fava","surface":"asphalt"}"	
+#28C9A0" ¬€Ù,"	
+#4A2B93" è€Ù,"	
+#E06E9B" íü¡"e
+c{"highway":"residential","lanes":"1","maxspeed":"30","name":"Via del Lavachel","surface":"asphalt"}"	
+#8E9967" á›:"A
+?{"highway":"secondary","name":"Strada di VanÃ©ze","ref":"SP85"}"	
+#0B9A25" Ô«¸ı"P
+N{"highway":"path","mtb:scale":"2","mtb:scale:uphill":"1","sac_scale":"hiking"}"	
+#F86A20" ùƒª{"2
+0{"highway":"path","sac_scale":"mountain_hiking"}"	
+#0482AF" ê›Î$"	
+#16E809" ïƒª{"	
+#16BC2D" ˆ…¨<"	
+#9A30C7" ¢­çù";
+9{"highway":"path","mtb:scale":"1","mtb:scale:uphill":"1"}"	
+#F12A2D" µß˜ı";
+9{"highway":"path","mtb:scale":"2","mtb:scale:uphill":"5"}"	
+#D8FD83" ƒºê";
+9{"highway":"path","mtb:scale":"3","mtb:scale:uphill":"3"}"	
+#2F116C" ä¹ËÄ"	
+#7919EA" ²ß˜ı"N
+L{"highway":"path","mtb:scale":"2","mtb:scale:uphill":"1","surface":"ground"}"	
+#4BFA6E" «Êùè"	
+#73D446" ’¡êç"<
+:{"highway":"track","mtb:scale":"1","mtb:scale:uphill":"2"}"	
+#9B2B73" ß»éf"	
+#9EF694" ú¬é"L
+J{"highway":"path","name":"Sentiero \"Trento Nostra\"","surface":"unpaved"}"	
+#BA5CB4" ¬â"}
+{{"bicycle":"yes","highway":"path","incline":"down","mtb:scale":"3","sac_scale":"mountain_hiking","trail_visibility":"good"}"	
+#231F66" ßí™Z"	
+#4E12EE" Øí™Z"	
+#B40CFD" ›ùî"@
+>{"highway":"unclassified","name":"Strada di CÃ²rno - VanÃ©ze"}"	
+#330FD7" Æó”"	
+#BAC2F4" €‰®"8
+6{"highway":"unclassified","name":"Via del Maso Scala"}"	
+#E77A1A" ÏÈö"M
+K{"highway":"unclassified","name":"Via delle Mandolare","surface":"asphalt"}"	
+#C528EA" –Ÿ‚"v
+t{"highway":"residential","lit":"yes","maxspeed":"30","name":"Via DÃ²s Trento","sidewalk":"none","surface":"asphalt"}"	
+#E5467B" ¸¨æ"q
+o{"access":"destination","highway":"residential","lit":"yes","name":"Via della Ca' dei Gai","surface":"asphalt"}"	
+#11AA20" ç„›´"	
+#360B49" ¨É©´"+
+){"highway":"service","surface":"asphalt"}"	
+#53AF2B" «¡ëº"	
+#F54291" ¯ÄÜ«"	
+#34DDBC" ¬¡ëº"	
+#3950CD" ´Ù­¹"	
+#D58F69" î¥€"?
+={"highway":"track","surface":"concrete","tracktype":"grade2"}"	
+#2CFE57" ¨“Âä"¡
+{"access":"customers","highway":"footway","layer":"-1","lit":"yes","location":"underground","name":"Galleria Bianca","surface":"paving_stones","tunnel":"yes"}"	
+#C8DA52" Åş"	
+#E026FA" Âş"	
+#EEBD66" öœ½»"‹
+ˆ{"highway":"unclassified","maxspeed":"40","maxspeed:type":"sign","name":"Lungadige Giacomo Leopardi","oneway":"yes","surface":"asphalt"}"	
+#BCE76F"  •¯¼"	
+#99B3DC" ¥±£»"‡
+„{"bicycle":"designated","cycleway":"shared","foot":"designated","highway":"cycleway","lit":"yes","segregated":"no","surface":"sett"}"	
+#AA0A1E" ½»"“
+{"highway":"tertiary","lanes":"2","lit":"yes","maxspeed":"40","maxspeed:type":"sign","name":"Corso Michelangelo Buonarroti","surface":"asphalt"}"	
+#097B86" ÅÙ¯¼"	
+#3AF1C1" ©ÒŠ"d
+b{"highway":"tertiary_link","maxspeed":"50","name":"Via delle Ischie","oneway":"yes","ref":"SP131"}"	
+#8C5602" ÌÓ¤q"	
+#E90ACA" ÉÓ¤q"	
+#64971A" ĞÔ¥»"Y
+W{"highway":"residential","lit":"yes","name":"Via Gian Battista Lampi","surface":"sett"}"	
+#57586D" ´á¤»"	
+#28A7E7" ª›Ş6"	
+#305E69" ‡Ò¬"z
+x{"highway":"tertiary","lanes":"2","name":"Via Dogana","oneway":"yes","parking:lane:both":"no_parking","surface":"paved"}"	
+#4AF9CA" Ò˜ªj"›
+˜{"highway":"unclassified","lanes":"1","lit":"yes","maxspeed":"10","maxspeed:type":"sign","name":"Via della Pontara","oneway":"yes","surface":"concrete"}"	
+#307B4A" ”å¦:"L
+J{"footway":"crossing","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#BD9D7D" îä¦:"Œ
+‰{"highway":"unclassified","lane_markings":"no","lit":"yes","maxspeed:type":"IT:urban","name":"Piazza dei Cappuccini","surface":"asphalt"}"	
+#9984EF" î®¥"c
+a{"highway":"tertiary","lanes":"2","maxspeed":"50","name":"Via della Cervara","surface":"asphalt"}"	
+#7389F2" ò•›7"	
+#B3E8CA" õÚ†%"C
+A{"access":"private","highway":"service","name":"Via delle Laste"}"	
+#E6B5D6" ˜Û†%"k
+i{"highway":"unclassified","name":"Via delle Laste","parking:lane:both":"no_stopping","surface":"asphalt"}"	
+#8A8C55" Ò›¼"_
+]{"access":"permissive","highway":"unclassified","name":"Via delle Laste","surface":"asphalt"}"	
+#DE89C9" ¤÷á§"	
+#3293D3" £÷á§"	
+#0A3F4A" ¢‚"Y
+W{"highway":"unclassified","name":"Via dei Giardini","oneway":"yes","surface":"asphalt"}"	
+#6EFC19" ¢¾ø%"4
+2{"highway":"service","name":"Via della Meridiana"}"	
+#349534" «ûá1"	
+#6D2129" Ù›¼"3
+1{"created_by":"Potlatch 0.10b","highway":"steps"}"	
+#5206C4" ßÍ×"9
+7{"highway":"unclassified","name":"Via alle Campanelle"}"	
+#59C81E" ëÓı"v
+t{"highway":"tertiary","lanes":"2","maxspeed":"50","name":"Strada della Valsugana","ref":"SP204","surface":"asphalt"}"	
+#DC9603" ½Î×"4
+2{"highway":"unclassified","name":"Via dei Pozati"}"	
+#8101F0" Í¤Ù"~
+|{"cycleway:both":"no","highway":"unclassified","lane_markings":"no","layer":"1","name":"Via Ponte Alto","surface":"asphalt"}"	
+#3216D0" ú›ß†"	
+#0D2CE6" é…ï"Y
+W{"highway":"unclassified","name":"Via alla Cascata","oneway":"yes","surface":"asphalt"}"	
+#8BA14D" ùî"Ñ
+Î{"bicycle":"yes","foot":"designated","highway":"path","motor_vehicle":"no","mtb:scale":"1","mtb:scale:imba":"0","mtb:scale:uphill":"0","sac_scale":"hiking","surface":"ground","trail_visibility":"excellent"}"	
+#7B228D" ´²¾")
+'{"highway":"track","surface":"asphalt"}"	
+#0BC6EE" µ²¾"	
+#74D831" ÄÃí%"o
+m{"highway":"unclassified","name":"Via Vittorio Marchesoni","short_name":"Via Marchesoni","surface":"asphalt"}"	
+#8938F4" Û›û‘"z
+x{"highway":"tertiary","maxspeed":"50","name":"Via della Resistenza","oneway":"no","sidewalk":"left","surface":"asphalt"}"	
+#D08E4A" „°š"3
+1{"highway":"unclassified","name":"Via Redondolo"}"	
+#FA7234" «®½Í"	
+#F45B1F" Ñú­'"Ü
+Ù{"bicycle":"designated","foot":"designated","highway":"cycleway","name":"Pista Ciclabile Valle dell'Adige","name:de":"Etschtalradweg","name:it":"Pista Ciclabile Valle dell'Adige","segregated":"no","surface":"asphalt"}"	
+#290D6E" ˜×µ±"t
+r{"bicycle":"designated","foot":"designated","highway":"cycleway","lit":"no","segregated":"no","surface":"asphalt"}"	
+#D674CB" ÏïŠú"	
+#2BB7C5" è½Ùê"	
+#CFDED0" Ã“â "	
+#476449" ©Õ”ô"e
+c{"highway":"secondary","maxspeed":"50","name":"Via Nazionale","old_ref":"SS12","surface":"asphalt"}"	
+#C999D3" ™‰¼"@
+>{"footway":"sidewalk","highway":"footway","surface":"asphalt"}"	
+#A463B5" ØŒ¼"	
+#C6F9A4" æ²Ó"L
+J{"highway":"residential","name":"Via Dario Lorenzini","surface":"asphalt"}"	
+#F4C30A" –ØŒ¼"	
+#2DD892" ›ØŒ¼"	
+#9BF908" œØŒ¼"=
+;{"highway":"service","service":"driveway","surface":"sett"}"	
+#E4C904" “ØŒ¼"	
+#52D86E" ïä¤"J
+H{"highway":"residential","name":"Strada ai Palazzi","surface":"asphalt"}"	
+#401AA8" ùƒü—"	
+#FB8E97" ‚™ê—"&
+${"highway":"path","surface":"earth"}"	
+#86A4A5" ¾áÒ
+"V
+T{"hgv":"no","highway":"tertiary","name":"Strada delle Novaline","surface":"asphalt"}"	
+#1DE469" À¥óæ"”
+‘{"bicycle":"yes","foot":"yes","highway":"path","mtb:scale":"2","mtb:scale:uphill":"2","smoothness":"very_bad","tracktype":"grade3","width":"1.5"}"	
+#BE4DD4" ç””"w
+u{"highway":"path","mtb:scale":"2","sac_scale":"mountain_hiking","surface":"ground","trail_visibility":"intermediate"}"	
+#172817" ¤»"&
+${"highway":"service","oneway":"yes"}"	
+#BB1AA7" £¾‰"2
+0{"created_by":"Potlatch 0.9c","highway":"track"}"	
+#B91975" ë½Ùê"G
+E{"bridge":"yes","highway":"service","layer":"1","service":"driveway"}"	
+#F32E90" Íµ°"P
+N{"highway":"tertiary","maxspeed":"70","name":"Via delle Ischie","ref":"SP131"}"	
+#75C669" ¯¡ø"	
+#B11A9F" £Ûßƒ"	
+#9B5094" ËïŠú"	
+#75C9B9" ÈïŠú"	
+#A5EA10" ÌïŠú"	
+#A8E648" µóˆ¼"	
+#B338A1" óÿÉ„"O
+M{"highway":"residential","name":"Via della Cooperazione","surface":"asphalt"}"	
+#327C9C" ¡«Ê„"	
+#E8807A" ±Â´"(
+&{"highway":"footway","surface":"sett"}"	
+#645206" œŠ••"P
+N{"highway":"unclassified","name":"Via della Torre Franca","surface":"asphalt"}"	
+#0EE2B2" ”ØŒ¼"	
+#BDFA94" ‚ùÍ"K
+I{"highway":"unclassified","name":"Via della RozÃ²la","surface":"asphalt"}"	
+#30C812" øä¤"6
+4{"highway":"residential","name":"Strada ai Palazzi"}"	
+#4769EF" ô”Â"	
+#3AE985" ˜•Â"3
+1{"highway":"service","name":"LocalitÃ  Valsorda"}"	
+#9AA526" –±Â´"	
+#2A32A5" ‡•Â"<
+:{"highway":"unclassified","name":"Strada della Lavandara"}"	
+#018F99" ¶ëÉ‚"5
+3{"highway":"track","name":"Strada della Lavandara"}"	
+#8AA594" ğùÏC"L
+J{"highway":"unclassified","name":"Strada de le Toare","surface":"asphalt"}"	
+#D4E1CC" ¦Àà"W
+U{"bicycle":"yes","highway":"track","name":"Strada dei Lareseti","tracktype":"grade1"}"	
+#B8F445" Š¼¬‹"¸
+µ{"foot":"yes","highway":"path","mtb:scale":"1","mtb:type":"allmountain","sac_scale":"mountain_hiking","smoothness":"good","surface":"dirt","trail_visibility":"good","width":"0.5 m"}"	
+#A9855D" ‡ÛÍ"	
+#FCC0B6" ó•‚Œ"	
+#4EB697" —‡Ê"	
+#CBC180" ¤ñ‘`"	
+#29ED3A" Å‰¢"S
+Q{"crossing":"zebra","footway":"crossing","highway":"footway","surface":"asphalt"}"	
+#24C490" ‰Œ›"	
+#B925B7" ­»w"+
+){"highway":"footway","surface":"unpaved"}"	
+#47A505" ü©Ë"
+}{"highway":"residential","lanes":"1","maxheight":"3.7","maxwidth":"3","name":"Via Pinara","oneway":"yes","surface":"asphalt"}"	
+#D822E1" É›û‘"B
+@{"highway":"residential","name":"Via Celva","surface":"asphalt"}"	
+#330B90" ¡¹â§"	
+#112D56" Æ–“›"Ï
+Ì{"highway":"path","incline":"up","mtb:scale":"5","mtb:scale:uphill":"5","name":"E419B","sac_scale":"alpine_hiking","source":"survey","surface":"ground","trail_visibility":"intermediate","wheelchair":"no"}"	
+#3A96B0" €¶ú"m
+k{"highway":"track","mtb:scale":"2","mtb:scale:uphill":"3","name":"Linea dei Tralicci","tracktype":"grade4"}"	
+#826E12" Á÷Ø"":
+8{"highway":"path","name":"Sentiero al Castelet diretto"}"	
+#0AE375" ¿¥óæ"ú
+÷{"bicycle":"yes","designation":"IT-TN:strada_forestale_tipo_a","emergency":"yes","foot":"yes","forestry":"yes","highway":"track","horse":"yes","motor_vehicle":"forestry","mtb:scale":"0","mtb:scale:uphill":"1","name":"Strada forestale Pramarquart"}"	
+#6B4319" ™Ÿ×"	
+#972983" ‰ˆåV"	
+#7219B9" ½ëÉ‚":
+8{"bicycle":"yes","highway":"track","tracktype":"grade2"}"	
+#21E3FD" ÷Œ™º",
+*{"highway":"unclassified","source":"Bing"}"	
+#CB3254" Ê°±¿"	
+#B1FD54" ö†Ìo"	
+#639C4A" æÑ{"X
+V{"bicycle":"yes","foot":"yes","highway":"path","mtb:scale":"1","mtb:scale:uphill":"1"}"	
+#AB681A" ıËåV"p
+n{"highway":"path","mtb:scale":"1","mtb:scale:uphill":"1","surface":"unpaved","tracktype":"grade2","width":"3"}"	
+#161F43  "	ú!Ş
+   "	ú!Ş
+   	"	ú!Ş
+   
+"	ú!Ş
+   "	ú!Ş
+   "	ú!Ş
+   "	ü!Ş
+   "	ú!Ş
+   "	ú!Ş
+   "	ú!Ş
+   "	ú!à
+    !""	ú!Ş
+   #$%"	ú!à
+   &'"	ú!à
+   ()"	ú!à
+   *+,"	ü!Ş
+   -./"	ü!Ü
+   012"	ü!Ş
+   345"	ü!Ş
+   678"	ü!Ş
+   9:;"	ü!Ş
+   <=>"	ü!Ü
+   ?@A"	ü!Ü
+   B@C"	ü!Ş
+   DEF"	ü!Ş
+   GHI"	ü!Ü
+   JHK"	ü!Ü
+   LMN"	ü!Ü
+   OPQ"	ü!Ü
+   RST"	ü!Ü
+   UVW"	ü!Ü
+   XYZ"	ü!Ş
+   [\"	ü!Ü
+   ]^_"	ş!Ü
+   `a"	ü!Ü
+   bc"	ü!Ü
+   de"	ü!Ü
+   fgh"	ş!Ü
+   ijk"	ü!Ü
+   lmn"	ü!Ü
+   opq"	ü!Ş
+   rst"	ü!Ş
+   u!v"	ü!Ş
+   wxy"	ü!Ü
+   z{"	ü!Ş
+   |}~"	ü!Ş
+ 
+  €"	ü!Ş
+   ‚ƒ„"	ü!Ş
+   …†‡"	ü!Ş
+   ˆ‰Š"	ü!Ş
+   ‹Œ"	ü!à
+   "	ü!à
+   ‘’“"	ü!à
+   ”•–"	ü!Ş
+   —˜™"	ü!Ş
+   š›œ"	ü!à
+   Ÿ"	ü!Ş
+    ¡¢"	ü!Ş
+ 
+  £¤"	ü!à
+   ¥¡¦"	ü!Ş
+   §¡¨"	ü!Ş
+   ©¡ª"	ü!à
+   «¡¬"	ü!à
+   ­®¯"	ü!Ş
+   °±²"	ü!Ş
+   ³´µ"	ü!Ş
+   ¶·¸"	ü!Ş
+   ¹º»"	ü!Ş
+   ¼½¾"	ü!Ü
+ 
+  ¿À"	ü!Ş
+ 
+  ÁÂ"	ü!Ü
+ 
+  ÃÄ"	ü!Ş
+ 
+  ÅÆ"	ü!Ü
+ 
+  ÇÈ"	ü!Ş
+   ÉÊË"	ş!Ş
+   ÌÍÎ"	ü!Ş
+   ÏĞÑ"	ü!Ş
+   ÒÓÔ"	ü!à
+   ÕÖ×"	ü!à
+   ØÙÚ"	ü!à
+   ÛÜİ"	ü!à
+   Şßà"	ü!Ş
+   áâã"	ü!à
+   ä±å"	ü!à
+   æ±ç"	ü!à
+   èĞé"	ü!Ş
+   êëì"	ü!Ş
+   í±î"	ü!Ş
+   ïğñ"	ü!à
+   òóô"	ü!Ş
+   õ±ö"	ü!Ş
+   ÷øù"	ü!à
+   úûü"	ü!Ş
+   ışÿ"	ü!à
+   €‚"	ü!à
+   ƒ„…"	ü!Ş
+ 
+  †.‡"	ü!Ş
+ 
+  ˆ‰"	ü!à
+   Š„‹"	ü!à
+   Œ"	ü!à
+   ‘"	ü!Ş
+   ’“”"	ü!Ş
+   •–—"	ş!Ş
+   ˜™š"	ü!Ş
+ 
+  ›œ"	ş!Ş
+   Ÿ"	ü!Ş
+    ¡¢"	ü!à
+   £¡¤"	ü!à
+   ¥¦§"	ü!à
+   ¨©ª"	ü!à
+   «¬­"	ü!Ş
+   ®¯°"	ü!Ş
+   ±²³"	ü!Ş
+   ´µ¶"	ü!Ş
+   ·¸¹"	ü!Ş
+  º»¼"	ü!Ş
+
+  ½¾"	ş!Ü
+   ¿˜À"	ü!Ü
+ 
+  ÁÂ"	ü!Ü
+ 
+  ÃÄ"	ü!Ü
+   ÅÆÇ"	ş!Ü
+   ÈÊÉ"	ş!Ü
+   ÊÊË"	ş!Ş
+   ÌÍÎ"	ş!Ş
+   Ï˜Ğ"	ş!Ş
+   ÑÒÓ"	ü!Ş
+   Ô˜Õ"	ş!Ş
+   Ö×Ø"	ü!Ş
+   ÙÚÛ"	ü!Ş
+   ÜİŞ"	ş!Ş
+ 
+  ßà"	ş!Ş
+   áâã"	ü!Ş
+   äåæ"	ş!Ş
+   çèé"	ş!à
+ 
+  êë"	ş!Ş
+ 
+  ìí"	ş!Ş
+ 
+  îï"	ş!Ş
+ 
+  ğñ"	ş!à
+   ò¡ó"	ş!à
+   ôõö"	ş!Ş
+ 
+  ÷ø"	ş!Ş
+   ùúû"	ú!à
+ 
+  üı"	ú!Ş
+ 
+  şÿ"	ú!Ş
+   €‚"	ú!Ş
+ 
+  ƒ„"	ú!Ş
+   …†‡"	ú!à
+ 
+  ˆ‰"	ú!à
+   Š‹Œ"	ú!à
+ 
+  !"	ú!Ş
+   ˜"	ú!à
+   ‘’“"	ú!à
+   ”•–"	ú!Ş
+   —˜™"	ú!à
+   š›œ"	ü!à
+   Ÿ"	ú!à
+    ¡¢"	ú!à
+   £¤¥"	ü!à
+   ¦§¨"	ü!à
+   ©ª«"	ú!à
+   ¬ª­"	ü!à
+   ®ª¯"	ü!à
+   °±²"	ú!à
+   ³´µ"	ü!à
+   ¶·¸"	ú!à
+   ¹º»"	ú!à
+   ¼º½"	ú!â
+ 
+  ¾:¿"	ú!à
+   ÀºÁ"	ú!à
+   ÂÃÄ"	ú!à
+   ÅÆÇ"	ü!à
+   ÈÉÊ"	ü!Ş
+   ËÃÌ"	ü!Ş
+   ÍÎÏ"	ú!à
+   ĞªÑ"	ü!à
+   ÒÓÔ"	ü!à
+   Õ˜Ö"	ü!à
+   ×ØÙ"	ü!à
+   ÚÛÜ"	ü!à
+ 
+  İŞ"	ú!à
+ 
+  ßà"	ü!à
+   áâã"	ü!à
+ 
+  äå"	ú!à
+   æçè"	ü!Ş
+   éêë"	ü!Ş
+   ìíî"	ü!à
+   ïğñ"	ü!Ş
+   òøó"	ü!Ş
+   ôõö"	ü!Ş
+   ÷¡ø"	ü!Ş
+   ù¡ú"	ü!à
+   û¡ü"	ü!Ş
+   ı¡ş"	ü!Ş
+   ÿ€"	ü!Ş
+   ‚ƒ„"	ü!Ş
+   …±†"	ü!Ş
+   ‡±ˆ"	ü!à
+   ‰Š‹"	ü!Ş
+   Œ±"	ü!Ş
+   "	ü!Ş
+   ‘’“"	ü!Ş
+   ”±•"	ü!à
+   –—˜"	ü!â
+ 
+  ™š"	ü!â
+ 
+  ›œ"	ü!â
+   Ÿ"	ü!à
+    Ğ¡"	ü!Ş
+   ¢£"	ü!Ş
+   ¤¥¦"	ü!Ş
+   §¨©"	ü!Ş
+   ª«¬"	ü!Ş
+   ­®¯"	ü!à
+   °±²"	ü!à
+   ³´"	ü!à
+   µ¶·"	ü!Ş
+   ¸¹º"	ü!à
+   »¼½"	ü!à
+ 
+  ¾!¿"	ü!Ş
+ 
+  À!Á"	ü!Ş
+   ÂÃÄ"	ü!à
+   ÅÆÇ"	ü!à
+ 
+  È.É"	ü!à
+   ÊËÌ"	ü!à
+   ÍÎÏ"	ü!Ş
+   ĞÑÒ"	ü!Ş
+   ÓÔÕ"	ü!à
+   Ö×Ø"	ü!à
+   ÙõÚ"	ü!à
+   ÛÜİ"	ü!à
+   Şßà"	ü!à
+   áâã"	ü!à
+ 
+  ä!å"	ü!à
+   æçè"	ü!à
+   éêë"	ü!à
+   ìíî"	ü!à
+   ï˜ğ"	ş!à
+   ñòó"	ü!à
+   ôõö"	ü!à
+ 
+  ÷ø"	ü!à
+   ù˜ú"	ü!â
+ 
+  û!ü"	ü!à
+   ışÿ"	ü!à
+   €‚"	ü!à
+   ƒ„"	ü!à
+   …†‡"	ü!à
+   ˆ‰"	ü!à
+   Š‹"	ü!â
+   Œ"	ü!â
+   "	ü!à
+   ‘’“"	ü!â
+   ”¡•"	ü!à
+   –—˜"	ü!à
+   ™š›"	ü!à
+   œ"	ü!à
+   Ÿ ¡"	ş!à
+   ¢£¤"	ü!à
+   ¥¦§"	ü!à
+   ¨©ª"	ü!à
+   «¬­"	ü!à
+   ®˜¯"	ü!â
+   °ò±"	ü!â
+ 
+  ²³"	ü!â
+ 
+  ´µ"	ü!â
+ 
+  ¶·"	ü!à
+   ¸¹"	ü!â
+   º»¼"	ü!â
+ 
+  ½!¾"	ü!â
+   ¿ÀÁ"	ü!â
+   ÂÃÄ"	ü!â
+   ÅÆ"	ü!à
+   ÇÈÉ"	ü!â
+   ÊËÌ"	ü!â
+   ÍÎ"	ü!â
+   ÏĞÑ"	ü!à
+   ÒĞÓ"	ü!â
+   ÔÕÖ"	ü!à
+   ×ØÙ"	ü!à
+   ÚÛÜ"	ü!â
+   İŞß"	ş!â
+   àáâ"	ü!â
+   ãøä"	ş!à
+ 
+  å+æ"	ş!Ş
+   çè"	ş!à
+ 
+  é+ê"	ş!à
+   ëìí"	ş!à
+   î˜ï"	ş!à
+   ğñò"	ş!à
+   óôõ"	ü!à
+   ö÷ø"	ş!à
+   ù¡ú"	ş!à
+   ûüı"	ş!à
+   şÿ€"	ü!à
+   ‚ƒ"	ü!à
+   „…†"	ü!à
+   ‡Éˆ"	ü!à
+ 
+  ‰Š"	ş!â
+  ‹Œ"	ü!â
+   "	ü!â
+ 
+  ‘’"	ş!â
+   “¤”"	ü!â
+   •–—"	ş!â
+   ˜™š"	ü!â
+ 

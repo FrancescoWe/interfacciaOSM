@@ -1,0 +1,14 @@
+{
+"name": "935556427",
+"description": "935556427",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "17",
+"center": "11.193695,46.052608,17",
+"bounds": "11.193149,46.052236,11.195368,46.052608",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe -z17 --no-tile-compression -e 935556427 --no-tile-compression -l combined only2Ways/way935556427.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"combined\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 17, \"fields\": {\"color\": \"String\", \"id\": \"Number\", \"tags\": \"String\", \"type\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"combined\",\"count\": 1,\"geometry\": \"LineString\",\"attributeCount\": 4,\"attributes\": [{\"attribute\": \"color\",\"count\": 1,\"type\": \"string\",\"values\": [\"#6C26F1\"]},{\"attribute\": \"id\",\"count\": 1,\"type\": \"number\",\"values\": [935556427],\"min\": 935556427,\"max\": 935556427},{\"attribute\": \"tags\",\"count\": 1,\"type\": \"string\",\"values\": [\"{\\\"highway\\\":\\\"track\\\"}\"]},{\"attribute\": \"type\",\"count\": 1,\"type\": \"string\",\"values\": [\"way\"]}]}]}}"
+}

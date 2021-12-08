@@ -1,0 +1,210 @@
+¿Sx
+combined(Ä typeidtagscolor"
+way" ˆ»èN"G
+E{"highway":"unclassified","name":"Via Lavisotto","surface":"asphalt"}"	
+#D14D08" °Å˚"]
+[{"highway":"unclassified","name":"Via Antonio Stoppani","oneway":"yes","surface":"asphalt"}"	
+#B6EF08" ∆Û€$",
+*{"footway":"sidewalk","highway":"footway"}"	
+#C65F31" ÓÀ¡°",
+*{"footway":"crossing","highway":"footway"}"	
+#C708F5" Á±˘G"◊
+‘{"bicycle":"designated","cycleway":"sidewalk","cycleway:surface":"asphalt","foot":"designated","footway":"sidewalk","footway:surface":"asphalt","highway":"path","lit":"yes","segregated":"yes","surface":"asphalt"}"	
+#A09057" ¢†Ç"@
+>{"footway":"sidewalk","highway":"footway","surface":"asphalt"}"	
+#864D8D" Ú∞»/"x
+v{"highway":"secondary","name":"Via Felice e Gregorio Fontana","short_name":"Via Fratelli Fontana","surface":"asphalt"}"	
+#79A089" £†Ç"@
+>{"footway":"crossing","highway":"footway","surface":"asphalt"}"	
+#157D81" Ω¿ÍM"?
+={"highway":"service","service":"driveway","surface":"gravel"}"	
+#BCA636" ô˘È–"
+{"highway":"footway"}"	
+#666383" §¿ÍM",
+*{"highway":"service","service":"driveway"}"	
+#6DED0D" ††Ç"	
+#AC14F5" Ù∞»/"V
+T{"highway":"unclassified","name":"Via Lavisotto","oneway":"yes","surface":"asphalt"}"	
+#E6808D" †¿ÍM"i
+g{"bicycle":"designated","foot":"designated","highway":"cycleway","segregated":"no","surface":"asphalt"}"	
+#CEF7D6" ôµ”"	
+#288915" •†Ç"?
+={"crossing":"zebra","footway":"crossing","highway":"footway"}"	
+#D0AEC7" π¿ÍM"i
+g{"bicycle":"dismount","crossing":"marked","footway":"crossing","highway":"footway","surface":"asphalt"}"	
+#0B65B3" „ÊÁÏ"	
+#2F0151" ‰ÊÁÏ"H
+F{"footway":"sidewalk","highway":"footway","layer":"-1","tunnel":"yes"}"	
+#220115" â˚Ø"ì
+ê{"alt_name":"Via Fratelli Fontana","highway":"secondary","layer":"-1","name":"Via Felice e Gregorio Fontana","surface":"asphalt","tunnel":"yes"}"	
+#14F9CB" °¿ÍM"q
+o{"bicycle":"dismount","footway":"sidewalk","highway":"footway","layer":"-1","surface":"asphalt","tunnel":"yes"}"	
+#033160" à˘—"ñ
+ì{"highway":"secondary","lanes":"2","lit":"yes","maxspeed":"50","name":"Via Felice e Gregorio Fontana","source:maxspeed":"sign","surface":"asphalt"}"	
+#AC47BC" ‚ÊÁÏ"L
+J{"footway":"sidewalk","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#FC397A" ÿ⁄»%"%
+#{"access":"no","highway":"footway"}"	
+#68C40A" Ú⁄»%"	
+#31A3C0" «¿ÍM"∞
+≠{"bicycle":"designated","cycleway:surface":"asphalt","foot":"designated","footway:surface":"asphalt","highway":"cycleway","lit":"yes","segregated":"yes","surface":"asphalt"}"	
+#7A9EFF" ∂Åé$"7
+5{"highway":"service","name":"Via Giovanni Segantini"}"	
+#7370DB" ◊»ÑH"
+{"highway":"service"}"	
+#FE3508" ﬂÅé$"1
+/{"highway":"service","service":"parking_aisle"}"	
+#C687C5" ¨Åé$"	
+#3888C1" ÏÆÖ"	
+#3DB94F" √Åé$"	
+#CCCBF3" ¿Åé$"d
+b{"highway":"unclassified","lane_markings":"no","name":"Via Secondo da Trento","surface":"asphalt"}"	
+#396B63" ò°≠E"	
+#0610D8" Ç¸Ø"Ñ
+Å{"highway":"secondary","lanes":"3","lit":"yes","maxspeed":"50","name":"Via Francesco Ambrosi","oneway":"yes","surface":"asphalt"}"	
+#C7A496" ˇ˚Ø"ó
+î{"highway":"secondary","lanes":"2","maxspeed":"50","name":"Via Francesco Ambrosi","oneway":"yes","parking:lane:both":"no_parking","surface":"paved"}"	
+#1820BA" ‚∞–K"i
+g{"crossing":"traffic_signals","footway":"crossing","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#482283" ›ãã)"ª
+∏{"bicycle":"designated","crossing":"traffic_signals","cycleway":"crossing","foot":"designated","footway":"crossing","highway":"path","lit":"yes","segregated":"yes","surface":"asphalt"}"	
+#400ABF" ™ﬂæÏ"v
+t{"bicycle":"designated","foot":"designated","highway":"cycleway","lit":"yes","segregated":"yes","surface":"asphalt"}"	
+#45E493" ´ﬂæÏ"	
+#A8B9AC" ˆ®‡"+
+){"highway":"footway","surface":"asphalt"}"	
+#C2326D" Éˆµ"î
+ë{"highway":"secondary","lanes":"2","lit":"yes","maxspeed":"50","name":"Piazza Centa","oneway":"yes","source:maxspeed":"sign","surface":"asphalt"}"	
+#386E70" æ©˙∆"	
+#31957F" °°≠E"	
+#09AC1F" ë°≠E"æ
+ª{"bicycle":"designated","crossing":"traffic_signals","cycleway":"crossing","foot":"designated","footway":"crossing","highway":"cycleway","lit":"yes","segregated":"no","surface":"asphalt"}"	
+#BF7CDC" Ùû∑/"	
+#E0E297" Ë∑°I"î
+ë{"highway":"secondary","lanes":"1","lit":"yes","maxspeed":"50","name":"Via di Centa","oneway":"yes","source:maxspeed":"sign","surface":"asphalt"}"	
+#1EDAD1" ﬂÊÁÏ"	
+#578997" ‡ÊÁÏ"7
+5{"highway":"footway","lit":"yes","surface":"asphalt"}"	
+#AE4944" ’ôß."û
+õ{"highway":"tertiary","lanes":"2","lanes:psv":"1","maxspeed":"50","name":"Via Francesco Ambrosi","oneway":"yes","source:maxspeed":"sign","surface":"paved"}"	
+#2F7190" ˛˚Ø"y
+w{"highway":"secondary","maxspeed":"50","name":"Via di Centa","oneway":"yes","source:maxspeed":"sign","surface":"paved"}"	
+#861330" ˛ƒõ∑"x
+v{"highway":"tertiary","maxspeed":"50","name":"Piazza Centa","oneway":"yes","source:maxspeed":"sign","surface":"paved"}"	
+#F20DEA" í°≠E"I
+G{"crossing":"traffic_signals","footway":"crossing","highway":"footway"}"	
+#3626EF" ê°≠E"B
+@{"crossing":"unmarked","footway":"crossing","highway":"footway"}"	
+#71C460"  Åé$"E
+C{"highway":"service","service":"parking_aisle","surface":"asphalt"}"	
+#132954" å°≠E"	
+#99A7DD" Ñ©‡"	
+#B7D802" Êãã)"	
+#1474CE" Û®‡"	
+#36B7D3" Ã⁄îj"5
+3{"foot":"yes","highway":"path","surface":"unpaved"}"	
+#F2978F" äìˇΩ"	
+#7FD396" üìÒ"”
+–{"highway":"unclassified","lane_markings":"no","lit":"yes","maxspeed:type":"IT:urban","name":"Piazza Centa","oneway":"yes","parking:condition:both":"ticket","parking:lane:both":"parallel","surface":"asphalt"}"	
+#985FA3" ˙®‡"	
+#98BDB9" º∏Ï3"	
+#AACF7B" ø©˙∆"	
+#C8F327" ˝ƒõ∑"ù
+ö{"highway":"secondary","maxspeed":"50","name":"Piazza Centa","oneway":"yes","parking:lane:both":"no_parking","source:maxspeed":"sign","surface":"asphalt"}"	
+#50EB6B" É©‡"	
+#003125" ∆…√á"	
+#82FF41" Êôß."ù
+ö{"highway":"secondary","lane_markings":"no","lit":"yes","maxspeed":"50","name":"Piazza Centa","oneway":"yes","source:maxspeed":"sign","surface":"asphalt"}"	
+#03EBC3" ıç÷"û
+õ{"highway":"secondary","lanes":"2","lit":"yes","maxspeed":"50","name":"Via Francesco Petrarca","oneway":"yes","source:maxspeed":"sign","surface":"asphalt"}"	
+#9A1E47" ∏∏Ï3"Ó
+Î{"bicycle":"designated","crossing":"zebra","cycleway":"crossing","cycleway:surface":"asphalt","foot":"designated","footway":"crossing","footway:surface":"asphalt","highway":"cycleway","lit":"yes","segregated":"yes","surface":"asphalt"}"	
+#FFED5E" Ñˆµ"‰
+·{"highway":"tertiary","lanes":"2","lanes:psv":"1","maxspeed":"50","name":"Via Giovanni Segantini","oneway":"yes","parking:condition:both":"ticket","parking:lane:both":"marked","short_name":"Via Segantini","surface":"asphalt"}"	
+#4D5541" ä°≠E"	
+#318527" ù°≠E"L
+J{"footway":"crossing","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#23C95E" ï¨Ü$"D
+B{"access":"private","highway":"service","service":"parking_aisle"}"	
+#B92253" ®∏°I"§
+°{"bicycle":"designated","cycleway:surface":"asphalt","foot":"designated","footway:surface":"asphalt","highway":"cycleway","segregated":"yes","surface":"asphalt"}"	
+#4C84B1" ∂∂õj"	
+#72E9BF" ‡ëÕl"ñ
+ì{"highway":"unclassified","lanes":"2","maxspeed":"50","name":"Via Clementino Vannetti","oneway":"yes","source:maxspeed":"sign","surface":"asphalt"}"	
+#884614" ºö∑r"	
+#950E91" ‘≈ñj"4
+2{"highway":"footway","lit":"yes","surface":"sett"}"	
+#D9E729" ˛®‡"	
+#C343DC" ˆç÷"ü
+ú{"highway":"residential","lane_markings":"no","lit":"yes","maxspeed":"50","name":"Piazza Centa","oneway":"yes","source:maxspeed":"sign","surface":"asphalt"}"	
+#DFA450" ≈•€ë"Û
+{"highway":"secondary","lanes":"2","lit":"yes","maxspeed:type":"IT:urban","name":"Via Francesco Petrarca","oneway":"yes","parking:condition:left":"ticket","parking:lane:left":"parallel","parking:lane:right":"no_parking","surface":"asphalt"}"	
+#90FA42"  ü*"T
+R{"highway":"service","oneway":"yes","service":"parking_aisle","surface":"asphalt"}"	
+#CAB391  "	‰¬¡ü  "	‰¬Ÿ¡Èü  	"	ºG"H	_˝ü  
+"	Ñ
+«?  "	ú;üK†°¥  "	ù≤
+  "	 ®…≈ü1  "
+	Íù/  "	ü˙†2∆å  "		¨†A
+Hó   !"	â∏ä¡Ë˝&  "#"	ü*Ç†¥	ˆ„»AíÌÂ  $%&"	⁄
+ÑLßæô  '()"	üÇ†2‹¥  *+"	‹)"≤	·`…Hß  ,-."		§Ï
+ﬂ-  /01"	‹Ë∂Dà  23"	ÜÓ)2◊  456"
+	ˆ‰
+Ô	ı  789"
+	ƒ¢
+˘	˘  :;<"
+	ö∆
+Ü
+Ñ$  =>?"	ñ$ä#"ôß”â©„π—*  @AB"	‘(û#2OØÀóÖ∑À˝≈è…&  CDE"	ÑÏ,2O?ëõÈ◊±˜k$  FDG"	æ‘ *Ò!•HOË—ä
+<‚   HIJ"	† Æ‰‡ Ã	⁄	  KLM"	¥(º*á
+ΩÌ©  NOP"
+	Êº+
+∆Ω  QRS"	∂"ﬁ/œ°çÈ  TRU"	ö+îë›	≈í   VRW"	‘ ÿã≤öÄö  XOY"	∫+ºßëìü   Z[\"	ﬁ(Ú‹ ò¨Üé  ]A^"	‘(û#òQÇô  _`a"	ÿ2ˆïú
+Òà"  bcd"	ƒ<ü"I†ùåßé[‹  efg"
+	Ó0≤
+¿˝  hij"	Æ2¥Üf`B  klm"	î4‹
+bH  nio"	ˆ4§˛  pqr"
+	∆4í
+å¨  stu"	ñ$ä# ‘§æ  vfw"	˙&“(fszÉ  x(y"	Æ&ﬁ*^…A  z{|"
+	Ï(é,
+ΩØ  }A~"	‡%¬1Bâ ©$
+  ÄÅ"	–,ö""¡Ï≠0ã	Ω°
+  ÇfÉ"	Ê(»%ëó  ÑÖÜ"		⁄(⁄&
+ë  áàâ"
+	–,ö"
+ÀÇ$  äãå"	–,ö""+¬
+ˆ(Íà‰  çéè"	Ñ)ú)»†í‰"  êëí"	‘-∫)}ÇâÄ•§  ìîï"		‡%¬1
+wË  ñóò"	‹$Ç2~FÆ 
+  ôAö"
+	Ë$™3
+◊»
+  õqú"	‘-∫)ß¢s1
+  ùû"!	∆4íB≈∞|¸ú	»ÑÊ÷®é"å;
+  üq†"+	Í6ñjó(sZ¢e‘Œ¬f⁄é∆ê®XDéJLR#  °¢£"	Ê2û&" à¥úN E
+  §q•"5	Ó<û0ÇNBhenë,K(A&Öâ ∑„M•ìœïΩó˘ãG«'"  ¶ß®"	†A¬üuß©ˇ´
+  ©q™"
+	à?ƒ
+±º,
+  ´I¨"	∆4í¬
+≤x`†Ç	 Œ',w8õ@!
+  ≠(Æ"	Ï(é,∫R¢ñ‡Ú  Ø∞±"
+	ﬁ-†-
+Ê‡
+  ≤q≥"
+	Í9Ê.
+˘ú
+  ¥µ"	Ó<û0påP†6Œ%  ∂∑∏"	ƒ:Ä92‰Vn
+Z	ê-x/(   π∫ª"	ƒ:Ä9Æéé|   ºΩæ"	‰>ò7‚îI⁄(  ø¿¡"	Ñ)ú)*O†Mà€‹·‡I†
+  ¬A√"	Ï†AJü¯	°  ƒ≈∆"	êÚ?E†  «»…"		§ †A
+çu   ÀÃ"	®>Ë>IòM†
+  ÕŒ"	û=ÑA
+0  œ–—"	Ó>†AHüJü;,
+  “A”"	†AÄJüü%_O)oa3.À¬  ‘’÷"	†Aæüwâ°
+  ◊qÿ"	Œ@¥'
+R
+  Ÿ⁄€"
+	ú@§>
+ÑÅ  ‹›ﬁ"
+	ú@§>
+Ñ‘  ﬂ‡·"		†A§>
+É 

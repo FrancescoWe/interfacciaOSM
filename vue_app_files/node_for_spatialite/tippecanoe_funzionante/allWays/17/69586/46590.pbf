@@ -1,0 +1,226 @@
+¨]x
+combined(Ä typeidtagscolor"
+way" Êãã)"@
+>{"footway":"sidewalk","highway":"footway","surface":"asphalt"}"	
+#1474CE" Ã⁄îj"5
+3{"foot":"yes","highway":"path","surface":"unpaved"}"	
+#F2978F" äìˇΩ"+
+){"highway":"footway","surface":"asphalt"}"	
+#7FD396" üìÒ"”
+–{"highway":"unclassified","lane_markings":"no","lit":"yes","maxspeed:type":"IT:urban","name":"Piazza Centa","oneway":"yes","parking:condition:both":"ticket","parking:lane:both":"parallel","surface":"asphalt"}"	
+#985FA3" ˙®‡"	
+#98BDB9" º∏Ï3"∞
+≠{"bicycle":"designated","cycleway:surface":"asphalt","foot":"designated","footway:surface":"asphalt","highway":"cycleway","lit":"yes","segregated":"yes","surface":"asphalt"}"	
+#AACF7B" ∆…√á"
+{"highway":"footway"}"	
+#82FF41" Êôß."ù
+ö{"highway":"secondary","lane_markings":"no","lit":"yes","maxspeed":"50","name":"Piazza Centa","oneway":"yes","source:maxspeed":"sign","surface":"asphalt"}"	
+#03EBC3" ıç÷"û
+õ{"highway":"secondary","lanes":"2","lit":"yes","maxspeed":"50","name":"Via Francesco Petrarca","oneway":"yes","source:maxspeed":"sign","surface":"asphalt"}"	
+#9A1E47" ∏∏Ï3"Ó
+Î{"bicycle":"designated","crossing":"zebra","cycleway":"crossing","cycleway:surface":"asphalt","foot":"designated","footway":"crossing","footway:surface":"asphalt","highway":"cycleway","lit":"yes","segregated":"yes","surface":"asphalt"}"	
+#FFED5E" ‡ëÕl"ñ
+ì{"highway":"unclassified","lanes":"2","maxspeed":"50","name":"Via Clementino Vannetti","oneway":"yes","source:maxspeed":"sign","surface":"asphalt"}"	
+#884614" øÜïj"I
+G{"footway":"sidewalk","highway":"footway","lit":"yes","surface":"sett"}"	
+#DC63E0" É∆«l"*
+({"access":"private","highway":"service"}"	
+#621EBE" µ®Â"≤
+Ø{"highway":"unclassified","lanes":"2","lit":"yes","maxspeed:type":"IT:urban","name":"Via di Pietrastretta","oneway":"no","parking:lane:right":"no_parking","surface":"asphalt"}"	
+#17E9B0" ñ∂°m"“
+œ{"access:lanes":"|no|","highway":"secondary","lanes":"3","name":"Via Brennero","oneway":"yes","parking:lane:both":"no_parking","psv:lanes":"|designated|","surface":"asphalt","turn:lanes":"left|left|through"}"	
+#723A67" πØïj"7
+5{"highway":"footway","lit":"yes","surface":"asphalt"}"	
+#15A41A" ®å≠g"‡
+›{"highway":"residential","lanes":"1","lit":"yes","maxspeed":"40","name":"Via della Malvasia","oneway":"yes","parking:condition:right":"ticket","parking:lane:right":"marked","short_name":"Via Malvasia","surface":"asphalt"}"	
+#F52967" ÷Üì^"L
+J{"footway":"sidewalk","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#754A8F" ∫Üïj"	
+#897E12" ºö∑r"	
+#950E91" ‘≈ñj"4
+2{"highway":"footway","lit":"yes","surface":"sett"}"	
+#D9E729" ‘ñ∞"†
+ù{"highway":"secondary","lanes":"2","lit":"yes","maxspeed":"50","name":"Via del Brennero","oneway":"yes","parking:lane:both":"no_parking","surface":"asphalt"}"	
+#D4AF0D" Ï¢¨j">
+<{"access":"private","highway":"service","surface":"asphalt"}"	
+#81805B" ÿÜì^"R
+P{"footway":"sidewalk","highway":"footway","lit":"yes","surface":"paving_stones"}"	
+#18297D" êú´j"	
+#ED3F4F" £èÂj"R
+P{"bridge":"yes","highway":"footway","layer":"1","lit":"yes","surface":"asphalt"}"	
+#EF0A9C" ˚µ»l"	
+#CDB691" ü⁄¯…"	
+#8DE009" Øäñj"	
+#46DED6" ¿Üïj"L
+J{"footway":"crossing","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#A403E8" €ëÕl"I
+G{"footway":"crossing","highway":"footway","lit":"yes","surface":"sett"}"	
+#62B45A" ºÜïj"	
+#DF3CE6" ≤ñ∞"√
+¿{"highway":"unclassified","lanes":"2","lit":"yes","maxspeed":"50","name":"Via Bartolameo da Trento","oneway":"no","parking:lane:both":"no_parking","source:maxspeed":"sign","surface":"asphalt"}"	
+#80F18E" ó≈Õl"	
+#E4E661" ”ëój"G
+E{"area":"yes","highway":"pedestrian","lit":"yes","surface":"asphalt"}"	
+#D49866" ãööj"∏
+µ{"highway":"unclassified","lanes":"2","lit":"yes","maxspeed":"50","name":"Via della Malvasia","oneway":"no","short_name":"Via Malvasia","source:maxspeed":"sign","surface":"asphalt"}"	
+#8219E9" æÜïj"	
+#63B7C5" ≈Üïj"	
+#BF3BF7" ´ˇ¥"∏
+µ{"highway":"residential","lanes":"1","lit":"yes","maxspeed":"50","name":"Via della Malvasia","oneway":"yes","short_name":"Via Malvasia","source:maxspeed":"sign","surface":"asphalt"}"	
+#017B11" ˛®‡"	
+#C343DC" ·∞–K"	
+#27E2FB" ˆ∑°I"_
+]{"crossing":"zebra","footway":"crossing","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#D1E4F6" ¡•õj"	
+#6ECA3C" —≈ñj"	
+#1B10D0" —◊é"	
+#55A9FE" “≈ñj"i
+g{"crossing":"traffic_signals","footway":"crossing","highway":"footway","lit":"yes","surface":"asphalt"}"	
+#988F4D" €Üì^"	
+#8A50F8" ”≈ñj"	
+#52572D" –◊é"y
+w{"highway":"secondary","maxspeed":"50","name":"Piazza Centa","oneway":"yes","source:maxspeed":"sign","surface":"paved"}"	
+#BED1C7" ©∂õj"	
+#69F110" ˆç÷"ü
+ú{"highway":"residential","lane_markings":"no","lit":"yes","maxspeed":"50","name":"Piazza Centa","oneway":"yes","source:maxspeed":"sign","surface":"asphalt"}"	
+#DFA450" ΩÜïj"	
+#DE3374" ŸÜì^"	
+#477AC0" ò≈Õl"	
+#96537E" ﬂÜì^"	
+#19D03D" Ã≠‹"◊
+‘{"highway":"secondary","lanes":"2","lit":"yes","maxspeed":"50","name":"Via del Brennero","oneway":"yes","parking:condition:both":"ticket","parking:lane:both":"marked","source:maxspeed":"sign","surface":"asphalt"}"	
+#9984FD" ªÜïj"	
+#705E38" √Üïj"˚
+¯{"highway":"residential","lanes":"1","lit":"yes","maxspeed":"50","name":"Via della Malvasia","oneway":"yes","parking:condition:right":"ticket","parking:lane:right":"parallel","short_name":"Via Malvasia","source:maxspeed":"sign","surface":"asphalt"}"	
+#23C022" ∂÷œ"Ú
+Ô{"highway":"unclassified","lanes":"2","lit":"yes","maxspeed:type":"IT:urban","name":"Via di Pietrastretta","oneway":"no","parking:condition:right":"free","parking:lane:left":"no_parking","parking:lane:right":"parallel","surface":"asphalt"}"	
+#FD0518" ƒÜïj"y
+w{"handrail":"yes","highway":"steps","incline":"up","lit":"yes","ramp":"no","step_count":"92","surface":"paving_stones"}"	
+#547D91" ”¶◊π"y
+w{"handrail":"yes","highway":"steps","incline":"up","lit":"yes","ramp":"no","step_count":"66","surface":"paving_stones"}"	
+#F6EB6D" —¶◊π"	
+#17CAE4" á‹"Ä
+˝{"cycleway:both":"no","foot":"yes","highway":"unclassified","lane_markings":"no","lit":"yes","maxspeed:type":"IT:urban","name":"Via di Pietrastretta","parking:condition:right":"free","parking:lane:right":"parallel","sidewalk":"none","surface":"asphalt"}"	
+#D9F9C3" “¶◊π";
+9{"highway":"footway","lit":"yes","surface":"grass_paver"}"	
+#B8C862" –¶◊π"y
+w{"handrail":"yes","highway":"steps","incline":"up","lit":"yes","ramp":"no","step_count":"27","surface":"paving_stones"}"	
+#87AA17" œ¶◊π"=
+;{"highway":"footway","lit":"yes","surface":"paving_stones"}"	
+#2A7ED6" ‚∂π"7
+5{"highway":"footway","lit":"no","surface":"concrete"}"	
+#B85465" Çõºj"(
+&{"access":"private","highway":"steps"}"	
+#7ECD49" …ÖÙπ"Q
+O{"access":"private","highway":"steps","noname":"yes","surface":"paving_stones"}"	
+#94AE9A" ô≈Õl"	
+#3F26BE" „∂π"	
+#9D175E" Ê∂π"	
+#84F772"  ÖÙπ"t
+r{"handrail":"no","highway":"steps","incline":"down","lit":"no","ramp":"no","step_count":"30","surface":"concrete"}"	
+#7FC920" ·∂π"	
+#6B1021" µ÷œ"õ
+ò{"cycleway:both":"no","highway":"residential","lit":"no","maxspeed:type":"IT:urban","name":"Via di Pietrastretta","sidewalk":"none","surface":"asphalt"}"	
+#0CF5CA" ◊∂π"p
+n{"handrail":"no","highway":"steps","incline":"up","lit":"no","ramp":"no","step_count":"3","surface":"asphalt"}"	
+#DC6F01" °≤óÆ"	
+#156AD8" ∞Ñ‡π"r
+p{"handrail":"yes","highway":"steps","incline":"up","lit":"no","ramp":"no","step_count":"40","surface":"asphalt"}"	
+#7A1C1E" Ñõºj"S
+Q{"access":"private","highway":"footway","noname":"yes","surface":"paving_stones"}"	
+#AF02E6" Á∂π"s
+q{"handrail":"no","highway":"steps","incline":"down","lit":"no","ramp":"no","step_count":"4","surface":"concrete"}"	
+#C546F3" ›Üì^"	
+#6EFF40" Œ∂üj"	
+#7EE610" Äõºj"	
+#876755" ≈•€ë"Û
+{"highway":"secondary","lanes":"2","lit":"yes","maxspeed:type":"IT:urban","name":"Via Francesco Petrarca","oneway":"yes","parking:condition:left":"ticket","parking:lane:left":"parallel","parking:lane:right":"no_parking","surface":"asphalt"}"	
+#90FA42"  ü*"T
+R{"highway":"service","oneway":"yes","service":"parking_aisle","surface":"asphalt"}"	
+#CAB391" ﬁ ü*"î
+ë{"highway":"service","oneway":"yes","parking:condition:both":"ticket","parking:lane:both":"marked","service":"parking_aisle","surface":"asphalt"}"	
+#78238A" Â÷”O"M
+K{"area":"yes","highway":"pedestrian","lit":"yes","surface":"paving_stones"}"	
+#31EF29" ñˇÁ"º
+π{"highway":"unclassified","lanes":"1","lit":"no","maxspeed":"50","name":"Largo Nazario Sauro","oneway":"yes","parking:lane:left":"parallel","source:maxspeed":"sign","surface":"asphalt"}"	
+#2EFD3E" ¡Üïj"	
+#AAA522" òˇÁ"ã
+à{"highway":"residential","lanes":"1","lit":"yes","maxspeed":"50","name":"Via alla Predara","parking:condition:left":"ticket","parking:condition:right":"ticket","parking:lane:left":"marked","parking:lane:right":"marked","source:maxspeed":"sign","surface":"asphalt"}"	
+#7206C1" “¶Ó"_
+]{"highway":"service","name":"Via alla Predara","service":"parking_aisle","surface":"asphalt"}"	
+#34BEFA  "	üò7
+   "	ü∂'†N .  	" 	üÑ/Jtï,K(A&Öâ ∑„M•ü›-  
+"	‡º,Bˇ˘◊O´Wwª›˚ôüu  "	wƒ
+':E  "7	ü¶Ç(x`“ñ“ÿƒÏ,^<§$§
+ !÷€ﬁ¡¯Wémxw8õ@  "	ü˛6
+$  "	ü÷92 ê-x/rC§k ˘  "	ü¸<†é  "	õò7‚î4   "	ë†Aíø;$  !"#"	Ü∏*πß«ÖAâCë	  $%&"	ƒ8‹ü)  '()"	‹)»B~JD%@M€<›ÜÒ
+ü  *+,"	ÜÆ£≠;ü  -./"	˙§ƒ∑@.  012" 	íüB @ÄR†∫¿ƒ∫fú¥Ü(∏  345"	Üäõâ?ü  6%7"	‚ﬁÍõóﬂ!  849"	¸í#* ”õ›-uO)!  :;<"	¸í#ø?ª	ãüw  =>?"
+	öÑ"
+ì’"  @AB"	Ä	¥*Ú]8!‚Õjy¬U  CDE"
+	“î 
+Àâ  F.G"		‘¨
+åQ  HIJ"	‡Z
+åU  K%L"
+	ˆ‡
+˚≤  M.N"		Ñä
+∂k  O%P"	∫äÏƒèÿ  QRS"	Ä
+L  TUV"	Ã“:P∞B¬  W"X"
+	“î 
+∫—  YZ["
+	îˆ
+˘é  \4]"	å¬>!YÌ
+o¡  ^_`"	åˆóËÖ´  abc"		¸Ù
+Ç  dRe"		æå
+1…  f"g"		Ë§ 
+Bª  hij"		îˆ
+⁄  kl"	N¥'
+¶p  mn"
+	†Ù'
+Ùó  opq"
+	î‹%
+§ï  rs"
+	Ä¢/
+”ï  tpu"
+	∏∆$
+ÑÛ  vw"
+	‡º,
+∫∑
+  xyz"	àò%O%ªﬂ  {p|"
+	‹ƒ+
+ÿ†  }4~"	àò%r‡‡x
+  ÄÅ"	ÿŒ5⁄ÀÆ≈
+  ÇÉ"	¥	‰,˝ÿï¯  ÑÖÜ"		§>
+º’
+  áyà"		†Ù
+x¢
+  âyä"	˙ê%∆MÍU 
+  ã"å"	§ ‘>óÂ Û
+®;)
+  ç4é"	⁄†A*?ü◊óŸ≈≥¬‘À.  èêë"	Ê†A27üø£πØÀ°ß«•Ω
+  í4ì"	‹™"‰÷>†"  îïñ"	Ü– "Üêé &P  óòô"?	¯)ñZÕm	[)K_ï1≈+ˇ9Öy„
+!Ìü	ã :†åËQ¯ô¨O‹oÄ  öõú"
+	Ë§ 
+êç"  ùûü"	Ù)Ú"ÏKxΩ hí
+  †.°"		ñ0û"
+5ß)  ¢£§"	ƒ6ê/*·˜CÛÀªìÁ9ü  •¶ß"	‡/ˆNì  ®©™"		®0ﬁ
+¿!  ´¨≠"		Ë3º
+¨	  ÆØ∞"		¢%í(
+ä)  ±≤≥"		Ü Ü,
+Êc  ¥µ∂"		Ï#¢+
+ä
+  ∑4∏"	˙!§>≥’›©  πØ∫"	≤$†(
+p  ªØº"	ä$¨,
+.  Ωæø"	∏$®,
+Z  ¿Ø¡"	¨(Ë'
+~  ¬√ƒ"
+	∂-“8
+Ωª  ≈∆«"		ñ,¢*
+é
+  »4…"	∆ Œ0
+&   ÀÃ"	∞!⁄0Æs8í#  ÕŒœ"	ä$¨,"4ÇnÇ†¬L<  –—“"	é&¢3
+Z
+  ”4‘"	í ¿@?	°
+  ’R÷"	Ä"Ê?áC  ◊≤ÿ"	ò(Æ7
+j/  Ÿ⁄€"	§>à‹Lx(&  ‹›ﬁ"	Ï†A*Åü+7©yœ!ß  ﬂ‡·"	¯@¿îB(   ‚„‰"	å Ä@†ó c  ÂÊÁ"	˙ ¶@
+z
+  Ë4È"	ñ"†Aü¡%  ÍÎÏ"	ò-†A*Mü!IçJè2è!  ÌÓÔ"	ò0†AÍÅ@ ã

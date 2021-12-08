@@ -1,0 +1,248 @@
+¯bx
+combined(€ typeidtagscolor"
+way" ¢İ%"I
+G{"highway":"footway","name":"Vicolo Benassuti","surface":"cobblestone"}"	
+#2FD9E6" Õ”H"r
+p{"highway":"footway","lit":"yes","name":"Vicolo dei Birri","oneway:bicycle":"no","surface":"unhewn_cobblestone"}"	
+#F8E7E6" ª×Ã"¦
+£{"highway":"pedestrian","is_in":"Trento, Trentino-Alto Adige, Italy","lit":"yes","name":"Via Giuseppe Verdi","oneway":"yes","oneway:bicycle":"no","surface":"sett"}"	
+#C47784" ÂÔ–B"}
+{{"highway":"pedestrian","lit":"yes","name":"Sottoportico del Pievano","oneway:bicycle":"no","surface":"unhewn_cobblestone"}"	
+#9F9833" ñòŞ\"†
+ƒ{"bicycle":"yes","highway":"residential","name":"Via Giovanni Prati","oneway":"yes","oneway:bicycle":"no","short_name":"via Prati"}"	
+#40BED9" ÷’êG">
+<{"footway":"sidewalk","highway":"footway","surface":"paved"}"	
+#03E5ED" »Ó­M",
+*{"highway":"service","service":"driveway"}"	
+#0351D7" ÃËã("*
+({"covered":"arcade","highway":"footway"}"	
+#5E64E6" £§°¹"	
+#12FD43" š‡¼"”
+‘{"bicycle":"yes","highway":"pedestrian","lit":"yes","name":"Piazza del Duomo","name:de":"Domplatz","name:it":"Piazza del Duomo","surface":"sett"}"	
+#96C02B" š‡¼"	
+#7FE6FD" ‘«ª"Ø
+Õ{"alt_name":"Piazza Duomo","area":"yes","highway":"pedestrian","loc_name":"Piaza del Dom","name":"Piazza del Duomo","name:de":"Domplatz","old_name":"Piazza Vittorio Emanuele III","place":"square","surface":"sett"}"	
+#AAC926" ä²ª"F
+D{"highway":"pedestrian","name":"Stretta del Duomo","surface":"sett"}"	
+#32AC0F" Ü¯¬";
+9{"bicycle":"yes","highway":"pedestrian","surface":"sett"}"	
+#D128F4" èİ“–"o
+m{"bicycle":"yes","highway":"pedestrian","is_in":"Trento, Trentino-Alto Adige, Italy","surface":"cobblestone"}"	
+#D62CD6" ½Ô–B"p
+n{"highway":"pedestrian","name":"Sottoportico del Pievano","surface":"cobblestone","tunnel":"building_passage"}"	
+#F9579A" –İ%"T
+R{"highway":"pedestrian","name":"Sottoportico del Pievano","surface":"cobblestone"}"	
+#51A45D" çö¸r"F
+D{"footway":"sidewalk","highway":"footway","surface":"paving_stones"}"	
+#2EC278" ú‰•"Â
+¿{"bicycle":"yes","foot":"yes","highway":"pedestrian","lanes":"1","lit":"yes","motor_vehicle":"permissive","name":"Via Giuseppe Garibaldi","oneway":"no","oneway:bicycle":"no","surface":"sett"}"	
+#46B778" ëö¸r"R
+P{"footway":"sidewalk","highway":"footway","lit":"yes","surface":"paving_stones"}"	
+#03744F" ‡š‡¼"	
+#A36902" š‡¼"6
+4{"bicycle":"yes","highway":"pedestrian","lit":"yes"}"	
+#25BB98" —ÒÁ&"
+{"highway":"footway"}"	
+#E8C78F" ­°«j"½
+º{"access":"destination","bicycle":"yes","foot":"yes","highway":"pedestrian","lanes":"1","lit":"yes","name":"Via Giuseppe Garibaldi","oneway":"yes","oneway:bicycle":"no","surface":"sett"}"	
+#FF8FFB" ±’û#"
+{"highway":"steps"}"	
+#0A34CA" ‹š‡¼"B
+@{"bicycle":"yes","highway":"pedestrian","surface":"cobblestone"}"	
+#1A1BEC" š‡¼"H
+F{"bicycle":"yes","highway":"pedestrian","lit":"yes","surface":"paved"}"	
+#4EF9DF" ‰š‡¼"C
+A{"bicycle":"yes","highway":"steps","lit":"yes","surface":"paved"}"	
+#F39776" •Şª"/
+-{"highway":"steps","surface":"paving_stones"}"	
+#30C903" Ï›û‘"	
+#604477" Ñ¯¬"£
+ {"bicycle":"yes","highway":"pedestrian","is_in":"Trento, Trentino-Alto Adige, Italy","name":"Via senatore Carlo Esterle","oneway:bicycle":"no","surface":"sett"}"	
+#FB8AC1" ²ÓÀé",
+*{"footway":"sidewalk","highway":"footway"}"	
+#FF8FCB" ÓŸ¿¤"@
+>{"crossing":"marked","footway":"crossing","highway":"footway"}"	
+#A75CBD" á¯¬"×
+Ô{"highway":"residential","is_in":"Trento, Trentino-Alto Adige, Italy","lit":"yes","motor_vehicle":"permit","name":"Via senatore Carlo Esterle","oneway:bicycle":"no","short_name":"Via Esterle","surface":"asphalt"}"	
+#9176BF" ©Ä×5"	
+#A0CC12" ®Ä×5"i
+g{"bicycle":"designated","foot":"designated","highway":"cycleway","segregated":"no","surface":"asphalt"}"	
+#73E024" ³ÓÀé"Ñ
+Î{"bicycle":"yes","highway":"residential","is_in":"Trento, Trentino-Alto Adige, Italy","name":"Via senatore Carlo Esterle","oneway":"yes","oneway:bicycle":"no","short_name":"Via Esterle","surface":"asphalt"}"	
+#66CBF0" ¶Ä×5",
+*{"footway":"crossing","highway":"footway"}"	
+#2F15F9" ´¸ª"¦
+£{"bicycle":"yes","foot":"yes","highway":"pedestrian","is_in":"Trento, Trentino-Alto Adige, Italy","lit":"yes","name":"Vicolo del Capitolo","surface":"cobblestone"}"	
+#B91EEE" ´ªª"¬
+©{"access":"destination","bicycle":"yes","foot":"yes","highway":"residential","lanes":"1","name":"Via Carlo Dordi","oneway":"yes","oneway:bicycle":"no","surface":"paved"}"	
+#083B39" ·ÅíŒ"	
+#DAFE40" ß©Ÿ&"3
+1{"highway":"service","tunnel":"building_passage"}"	
+#B381F8" ö£º%"
+{"highway":"service"}"	
+#F3244F" ±ÅíŒ"	
+#5419CE" ­ÅíŒ"	
+#F16A5D" µÑ¾"ƒ
+€{"access":"yes","bicycle":"yes","highway":"pedestrian","name":"Via San Vigilio","oneway:bicycle":"no","surface":"paving_stones"}"	
+#F0C5C7" ìö¸r"	
+#A37A94" „ß·G"y
+w{"access":"yes","bicycle":"yes","highway":"pedestrian","name":"Via San Vigilio","oneway:bicycle":"no","surface":"sett"}"	
+#C75CB4" å§ 4"Z
+X{"crossing":"unmarked","footway":"crossing","highway":"footway","surface":"cobblestone"}"	
+#988006" »Ù©"¯
+¬{"access":"destination","bicycle":"yes","foot":"yes","highway":"residential","lanes":"1","name":"Via Calepina","oneway":"yes","oneway:bicycle":"no","surface":"cobblestone"}"	
+#5791DD" ß§ 4"	
+#9B8807" ¾¬6"B
+@{"crossing":"unmarked","footway":"crossing","highway":"footway"}"	
+#B0CB8E" Ö©Ÿ&":
+8{"highway":"footway","name":"Passaggio Vittorio Zippel"}"	
+#755B63" ÈÖ5"	
+#E0E6E5" ûØŒQ"	
+#74D3B7" ¼¬6"	
+#F41BC2" ÃÃ¬j"€
+~{"access":"destination","bicycle":"yes","foot":"yes","highway":"residential","lanes":"1","oneway":"yes","oneway:bicycle":"no"}"	
+#92C8B5" »¬6"	
+#DEA7E1" èö¸r"	
+#9D53B7" À¬6"	
+#9E5A8D" „·ª"y
+w{"area":"yes","highway":"pedestrian","name":"Piazza Alessandro Vittoria","oneway:bicycle":"no","surface":"cobblestone"}"	
+#35862D" õÕ×/")
+'{"highway":"service","service":"alley"}"	
+#2F37A0" éö¸r"	
+#427D31" ñ©®'"?
+={"highway":"pedestrian","oneway":"yes","oneway:bicycle":"no"}"	
+#EB2695" ÷Õ×/"E
+C{"highway":"service","service":"alley","tunnel":"building_passage"}"	
+#390C47" ºÅíŒ"	
+#6F4086" ·À”H"<
+:{"area":"yes","highway":"service","surface":"cobblestone"}"	
+#EB9CE2" è§ 4"	
+#2A7864" Ú›û‘"	
+#7B07BB" ş¤ã"«
+¨{"access":"destination","bicycle":"yes","foot":"yes","highway":"residential","lanes":"1","name":"Via Roccabruna","oneway":"yes","oneway:bicycle":"no","surface":"paved"}"	
+#934929" Ê”®&"*
+({"access":"private","highway":"service"}"	
+#019ADF" ½¬6"T
+R{"crossing":"unmarked","footway":"crossing","highway":"footway","surface":"paved"}"	
+#6FC3D2" Ç”®&"F
+D{"access":"private","highway":"service","tunnel":"building_passage"}"	
+#159A4D" Õ›û‘"
+Œ{"access":"yes","bicycle":"yes","highway":"pedestrian","lit":"yes","name":"Via San Vigilio","oneway:bicycle":"no","surface":"paving_stones"}"	
+#956751" Â‹Ã2"5
+3{"highway":"residential","surface":"paving_stones"}"	
+#5091E8" ¼‹Ã2"7
+5{"highway":"residential","tunnel":"building_passage"}"	
+#E3C356" Ë‹Ã2"$
+"{"area":"yes","highway":"service"}"	
+#671987" ñÊ‹$"?
+={"area":"yes","highway":"pedestrian","surface":"cobblestone"}"	
+#7EEC0C" Ÿ¬†$"P
+N{"highway":"pedestrian","name":"Via Giuseppe Mazzini","surface":"cobblestone"}"	
+#C9BF9E" ŠØÃ"Ò
+Ï{"bicycle":"yes","foot":"yes","highway":"pedestrian","is_in":"Trento, Trentino-Alto Adige, Italy","lanes":"1","lit":"yes","name":"Via Giuseppe Mazzini","oneway":"yes","oneway:bicycle":"yes","surface":"sett"}"	
+#7CA1B2" ™¸ª"¿
+¼{"access":"destination","bicycle":"yes","foot":"yes","highway":"residential","lanes":"1","lit":"yes","name":"Via Santissima TrinitÃ¡","oneway":"yes","oneway:bicycle":"no","surface":"sett"}"	
+#11F922" „›¤&"O
+M{"highway":"pedestrian","name":"Vicolo dei Gaudenti","surface":"cobblestone"}"	
+#DDD874" •›¤&"k
+i{"highway":"pedestrian","name":"Vicolo dei Gaudenti","surface":"cobblestone","tunnel":"building_passage"}"	
+#316AA8" Œ›¤&"	
+#7BA850" ªğ%"	
+#2DD0DD" ¯¦ã"	
+#87C287" Ÿÿç"»
+¸{"access":"destination","bicycle":"yes","foot":"yes","highway":"service","lanes":"1","name":"Prima Androna di Borgo Nuovo","oneway":"yes","oneway:bicycle":"no","surface":"cobblestone"}"	
+#53D700" ‹·ª"¹
+¶{"access":"destination","bicycle":"yes","foot":"yes","highway":"residential","lanes":"1","lit":"yes","name":"Piazza delle Erbe","oneway":"yes","oneway:bicycle":"no","surface":"sett"}"	
+#FD7A45" âêåT"&
+${"highway":"steps","step_count":"2"}"	
+#8CF572" º¬6"=
+;{"footway":"sidewalk","highway":"footway","surface":"sett"}"	
+#290E60" Á¬6"	
+#EECED3" Ë”®&"
+{"highway":"pedestrian"}"	
+#D9BFF9" ¡ÅíŒ"©
+¦{"access":"destination","bicycle":"yes","foot":"yes","highway":"residential","lanes":"1","name":"Via Calepina","oneway":"yes","oneway:bicycle":"no","surface":"paved"}"	
+#35C546" Ã›û‘"	
+#09F557" Õ”®&"	
+#1A5323" ¹¬6"	
+#5DC44E" ÇÑ†S"´
+±{"access":"destination","bicycle":"yes","foot":"yes","highway":"residential","lanes":"1","name":"Via Santissima TrinitÃ¡","oneway":"yes","oneway:bicycle":"no","surface":"paved"}"	
+#2ADABB" ¯Ä×5"	
+#A45E68" Ç¯¬"Ü
+Ù{"access":"destination","bicycle":"yes","foot":"yes","highway":"residential","horse":"yes","is_in":"Trento, Trentino-Alto Adige, Italy","name":"Via degli Orti","oneway":"yes","oneway:bicycle":"no","surface":"asphalt"}"	
+#8E7130" ¿§ã"½
+º{"access":"destination","bicycle":"yes","foot":"yes","highway":"service","lanes":"1","name":"Seconda Androna di Borgo Nuovo","oneway":"yes","oneway:bicycle":"no","surface":"cobblestone"}"	
+#ABD35B  "	ÂÒ1 Ÿ  "	Ÿú „	|"  	"	œÌ›8Ÿ  
+"	aÌ
+=  "	Ÿœ0 è/Ø3  "	1NŸ  "	
+ A
+©/"  "	€Š*]#ÙUƒqÍ5Ÿ1  "%	æÀbƒO1‘$2+¿… QGÃn3c«3Ÿ   "	œŸ"2 @ãÊ˜  "	ÎÊàÍÃû/ŸR   !""D	¼Ÿ² &ı\ğ*ÔIŸ×DÔÇÆƒO1‘$2+¿… QGÃn3c«3Ÿ  #$%"		â¢
+:ª  &'("	œÌ*²Ağ  )*+"		„î
+Gè  ,-."	úªùa
+  /01"	¼¦
+A  234"	ìŸ Tú  567"	¨Ÿ n˜:  89:",	ĞŸz 4^àsÈò6D8<f tJ+4˜îX®%  ;'<"	„î*ºV„< 7ÄçÄ·  =>?"	´Ò Ñ¤#±!  @AB"	Ò’!*i/ke¯«  CDE"
+	¨˜
+øÀ  FGH"	œè
+:  IJK"		¦à
+è(  LMN"	¦àòt  OPQ"		ê¨
+Ä  RST"	ˆ¤*  U3V"
+	®Š|V  WXY"	ô%?‹!Á Ï  Z[\"		Âì-
+Æ+  ]^_"		Œ´1
+IÇ  `ab"
+	ô%
+¢°	  c[d"		¾/
+®   efg"	À A"ŸµÛÏ  hij"	À¤/’Ê   klm"
+	öì;
+²Ò  nop"	è"Ê!ß’]½  qrs"	”5œßD‹8  t[u"	Ìú®!®C¨
+I  vwx"		 ,Ö
+5¥  yz{"		´,à
+‰  |[}"	ğÄŞòo  ~3"	ö6Úó®‘Ã  €‚"	  Ø
+t
+  ƒA„"	ÜÜ
+^  …†‡"	º Ì
+.  ˆ‰Š"	Ê ú
+V  ‹Œ"	  ØÌ¿ ™
+  3"	 !êÚÙ®‰  ‘’"		À4ò
+Â  “”•"	Ê6ø
+R
+  –[—"
+	À4ò
+¶è
+
+  ˜A™"	Ì5
+&
+  šl›"	¦8Ø
+Q  œ"	?ÊËJ½
+  Ÿ[ "		‚6ê
+Ò=
+  ¡[¢"	Ğ6Ê°	k   £‘¤"	Ô>¬¬  /  ¥¦§"	?Ê:b”“»²¡Ñ
+Q¾  ¨©ª"		ì1˜
+–
+  «l¬"	Ä7À
+M  ­®¯"		Ä7À
+H¾  °±²"		€2®
+j¾$
+  ³[´"	¨7†"Òî…ş«Z«z$  µ¶·"	¬4Ò"\’‡8[‘Æ
+  ¸l¹"		¨7†
+”
+  º»"
+	¼9î
+šà  ¼½¾"	Œ8ş,|èŒ  ¿ÀÁ"		Ğ9š
+Î  ÂÃÄ"	Ö:Î
+t  ÅÆÇ"		;ü
+ŒU*  ÈÉÊ"	Ê ú*ÚÊD†Ş–Öæ¢  ËÌÍ"	’&Ü'µşB  ÎÏĞ"	ä!œ*T¤¨$  ÑÒÓ"	è"Ü."fâ›,ëŒ1  ÔÕÖ" 	À&Ş5B‚¥@‚Ò™Z‰‰sAè%  ×ØÙ"	®+”0ñĞ‚&  ÚÛÜ"	¾)ä*"ğ°œĞºœ8   İŞß"	 ;†&óˆíÖ  àáâ"		9ò'
+³  ãäå"		Ô9Ø*
+5å  æáç"		¶:Æ.
+aí  èäé"		è:®0
+1ç  êáë"
+	Š=ş7
+¡Ï!  ìíî"	Ê/ä;Àåö?   ïğñ"	 A¦Ÿa  òóô"	ŠA 
+a#  õö÷"	š@¬
+†	 „
+…é
+  ø[ù"	 Aò
+  úûü"	”Aö
+>  ışÿ"	Œ8şô« 
+  €"	 A¸ŸÃ˜  ‚Àƒ"	ª?¦V  
+  „…"	ì:Â¸öÜY   †‡ˆ"	 ;†&àk 
+  ‰[Š"	¨¾=Â "  ‹Œ"	¼¶<‚¢¾â !  "	 AĞ?Ÿ™¿ 

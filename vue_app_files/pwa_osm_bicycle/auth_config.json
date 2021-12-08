@@ -1,0 +1,9 @@
+{
+    "domain": "prova-osm.eu.auth0.com",
+    "clientId": "0jQ1kV47wtmoOUrNJgcvvPCzGPwDxEmk",
+    "audience":"https://prova-osm.eu.auth0.com/api/v2/",
+    "client_secret":"8TQRX_Na-yhPEgQYakBzcYcQuDE90leyPfMTj4X6MLaUWIL5SAS3jVSJUhH-3BON",
+    "grant_type":"client_credentials",
+    "client_id_api": "Kw4kSkZdWcZ1NhOGrfJcDBwq0j5PkvuN"
+
+}
